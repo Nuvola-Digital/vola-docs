@@ -17,7 +17,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '20'
-  
+    
   
       - name: Install pnpm
         run: npm install -g yarn
@@ -38,11 +38,11 @@ jobs:
       - name: Deploy to remote server
         uses: appleboy/ssh-action@v0.1.10
         with:
-          host: ${{ secrets.DEV_HOST }}
+          host: ${{ secrets.STAGE_HOST }}
           username: ${{ secrets.USERNAME }}
-          key: ${{ secrets.DEV_SSH_PRIVATE_KEY }}
+          key: ${{ secrets.STAGE_SSH_PRIVATE_KEY }}
           port: ${{ secrets.PORT }}
           command_timeout: 30m
           script: |
-            export PATH=${{ secrets.DEV_PATH }}:$PATH
+            export PATH=${{ secrets.STAGE_PATH }}:$PATH
             bash -c "/data/stage/cicd/docs.sh"
