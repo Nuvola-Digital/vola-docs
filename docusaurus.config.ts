@@ -63,21 +63,32 @@ const config: Config = {
       },
       items: [
         {
-          type: "docSidebar",
-          sidebarId: "volaDocSidebar",
-          position: "left",
-          label: "Docs",
+          href: 'https://github.com/facebook/docusaurus',
+          position: 'right',
+          className: 'header-icon-link x',
+          'aria-label': 'Vola Network X (Twitter) handle',
         },
         {
           href: 'https://github.com/facebook/docusaurus',
           position: 'right',
-          className: 'header-github-link',
-          'aria-label': 'GitHub repository',
+          className: 'header-icon-link facebook',
+          'aria-label': 'Vola Network Facebook page',
+        },
+        {
+          href: 'https://github.com/facebook/docusaurus',
+          position: 'right',
+          className: 'header-icon-link discord',
+          'aria-label': 'Nuvola Digital Discord server',
+        },
+        {
+          href: 'https://github.com/facebook/docusaurus',
+          position: 'right',
+          className: 'header-icon-link github',
+          'aria-label': 'Vola Network GitHub repository',
         },
       ],
     },
     footer: {
-      style: "dark",
       links: [
         {
           title: "Docs",

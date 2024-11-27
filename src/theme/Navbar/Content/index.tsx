@@ -1,7 +1,9 @@
 import React, { type ReactNode } from "react";
 import { useThemeConfig, ErrorCauseBoundary } from "@docusaurus/theme-common";
-import { splitNavbarItems,
-  useNavbarMobileSidebar } from "@docusaurus/theme-common/internal";
+import {
+  splitNavbarItems,
+  useNavbarMobileSidebar,
+} from "@docusaurus/theme-common/internal";
 import NavbarItem, { type Props as NavbarItemConfig } from "@theme/NavbarItem";
 import NavbarColorModeToggle from "@theme/Navbar/ColorModeToggle";
 import SearchBar from "@theme/SearchBar";
@@ -86,10 +88,16 @@ export default function NavbarContent(): JSX.Element {
       right={
         // TODO stop hardcoding items?
         // Ask the user to add the respective navbar items => more flexible
-        <>
+        <div style={{ display: "flex", gap: "16px",alignItems: "center" }}>
           <NavbarColorModeToggle className={styles.colorModeToggle} />
-          <NavbarItems items={rightItems} />
-        </>
+          <div style={{ display: "flex", gap: "12px" }}>
+            <NavbarItems items={rightItems} />
+          </div>
+          <button disabled style={{ backgroundColor: "var(--primary)", color: "white", display:"grid", borderRadius:"4px", padding:"6px 20px", border: "none" }}>
+            <span style={{fontSize:"16px",fontWeight:"bold"}}>App</span>
+            <span style={{fontSize:"12px"}}>Coming Soon</span>
+          </button>
+        </div>
       }
     />
   );
