@@ -6,19 +6,70 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --primary: #06b6d4;
+  /* Text */
+  --ifm-heading-font-family: "Inter", sans-serif;
+  --ifm-heading-color: rgba(15, 23, 42, 1);
+  --ifm-font-color-base: rgba(71, 85, 105, 1);
+  --ifm-navbar-link-hover-color: var(--primary);
+  --ifm-menu-color-active: var(--primary);
+  --ifm-breadcrumb-color-active: var(--primary);
+  --ifm-link-color: var(--primary);
+  --ifm-pagination-nav-color-hover: var(--primary);
+  --ifm-color-emphasis-300: rgba(203, 213, 225, 1);
+
+  /* Subtle colors */
+  --ifm-menu-color-background-active: rgba(248, 250, 252, 1);
+  --ifm-toc-border-color: rgba(203, 213, 225, 1);
+
+  /* Spacing */
+  --ifm-menu-link-padding-vertical: 6px;
+  --ifm-menu-link-padding-horizontal: 16px;
+  --ifm-global-spacing: 8px 10px;
+
+  /* Text Sizes */
+  --ifm-h1-font-size: 3rem;
+  --ifm-h2-font-size: 2.25rem;
+  --ifm-h3-font-size: 1.875rem;
+  --ifm-h4-font-size: 1.5rem;
+  --ifm-h5-font-size: 1.25rem;
+
+  /* Breadcrumb */
+  --ifm-breadcrumb-padding-vertical: 0px;
+  --ifm-breadcrumb-padding-horizontal: 1px;
+  --ifm-breadcrumb-separator-size: 1.25rem;
+  --ifm-breadcrumb-item-background-hover: transparent;
+  --ifm-breadcrumb-item-background-active: transparent;
+  --ifm-breadcrumb-color-active: rgba(15, 23, 42, 1);
+  --ifm-breadcrumb-separator-size-multiplier: 1.25;
+  --ifm-breadcrumb-separator: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M14.1667 4.16663L5.83333 15.8333' stroke='%23475569' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+
+  /* Menu Caret */
+  --ifm-menu-link-padding-vertical: 6px;
+  --ifm-menu-link-padding-horizontal: 6px;
+
+  --ifm-color-primary: var(--primary);
+  --ifm-color-primary-dark: #06b6d4;
+  --ifm-color-primary-darker: #0891b2;
+  --ifm-color-primary-darkest: #0e7490;
+  --ifm-color-primary-light: #22d3ee;
+  --ifm-color-primary-lighter: #67e8f9;
+  --ifm-color-primary-lightest: #a5f3fc;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+[data-theme="dark"] {
+  /* Text */
+  --ifm-heading-color: rgba(248, 250, 252, 1);
+  --ifm-font-color-base: rgba(148, 163, 184, 1);
+  --ifm-navbar-link-hover-color: #06b6d4;
+  --ifm-menu-color-active: #06b6d4;
+
+  /* Subtle colors */
+  --ifm-menu-color-background-active: rgba(30, 41, 59, 1);
+
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
@@ -27,4 +78,167 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.header-github-link::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background-color: var(--ifm-navbar-link-color);
+  mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12'/%3E%3C/svg%3E");
+  transition: background-color var(--ifm-transition-fast)
+    var(--ifm-transition-timing-default);
+}
+
+.header-github-link:hover::before {
+  background-color: var(--ifm-navbar-link-hover-color);
+}
+
+.menu__link {
+  border-radius: 6px;
+}
+
+.menu__link--active {
+  font-weight: 600;
+}
+.menu_SIkG {
+  padding: 0 !important;
+}
+.menu__list {
+  padding: 24px;
+}
+.menu__list-item > .menu__list {
+  padding-block: 0;
+  margin-inline-start: 1.5rem;
+  padding-inline-start: 0;
+  border-inline-start: 1px solid var(--ifm-toc-border-color);
+  --ifm-menu-color-background-active: transparent;
+}
+.menu__list-item > .menu__list > .menu__list-item > .menu__link {
+  border-start-start-radius: 0;
+  border-end-start-radius: 0;
+}
+.menu__list-item > .menu__list > .menu__list-item > .menu__link--active {
+  border-inline-start: 2px solid var(--ifm-menu-color-active);
+  translate: -1.5px 0;
+}
+.markdown h1:first-child {
+  --ifm-h1-font-size: 3rem;
+}
+.navbar {
+  box-shadow: none;
+  border-bottom: 1px solid var(--ifm-toc-border-color);
+}
+.breadcrumbs__link {
+  height: 20px;
+}
+.breadcrumbs__item {
+  display: inline-flex;
+}
+/* menu caret */
+.menu__caret::before {
+  background-size: 1.5rem;
+}
+/* Pagination Previous and Next Buttons */
+.pagination-nav__link {
+  width: fit-content;
+}
+.pagination-nav__link.pagination-nav__link--prev {
+  justify-self: start;
+  display: flex;
+}
+.pagination-nav__link.pagination-nav__link--prev::before {
+  background: var(--ifm-menu-link-sublist-icon) 50% / 1.5rem 1.5rem;
+  height: 1.5em;
+  width: 1.5em;
+  content: " ";
+  transform: rotate(-90deg);
+}
+.pagination-nav__link.pagination-nav__link--next {
+  justify-self: end;
+  display: flex;
+}
+.pagination-nav__page {
+  display: flex;
+  width: fit-content;
+  position: relative;
+  color: var(--primary);
+  --ifm-menu-link-sublist-icon: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%2306b6d4%22%20d%3D%22M7.41%2015.41L12%2010.83l4.59%204.58L18%2014l-6-6-6%206z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
+}
+.pagination-nav__page::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: var(--primary);
+  transition: 0.2s ease-out width;
+}
+.pagination-nav__page:hover::before {
+  width: calc(95% - 2px);
+}
+.pagination-nav__page::after,
+.pagination-nav__link.pagination-nav__link--next::after {
+  background: var(--ifm-menu-link-sublist-icon) 50% / 1.5rem 1.5rem;
+  height: 1.5em;
+  width: 1.5em;
+  content: " ";
+  transform: rotate(90deg);
+}
+.pagination-nav__sublabel {
+  font-size: 1rem;
+  margin-bottom: 0;
+  padding-inline: 10px;
+  margin-block: auto;
+}
+
+/* Cards */
+article.margin-bottom--lg {
+  margin-bottom: 0 !important;
+  padding: 0.75rem;
+}
+
+/* Navbar */
+.navbar__items--center {
+  flex:1;
+}
+
+h1 {
+  font-weight: 500;
+  line-height: 3rem;
+  letter-spacing: 0;
+}
+p.center {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+h2 {
+  font-weight: 500;
+  line-height: 2.5rem;
+  letter-spacing: 0;
+}
+h3 {
+  font-weight: 500;
+  line-height: 2.25rem;
+  letter-spacing: 0;
+}
+h4 {
+  font-weight: 500;
+  line-height: 2rem;
+  letter-spacing: 0;
+}
+h5 {
+  font-weight: 500;
+  line-height: 1.75rem;
+  letter-spacing: 0;
+}
+p {
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 0;
+}
+strong {
+  color: var(--ifm-heading-color);
 }
