@@ -40,8 +40,7 @@ const config: Config = {
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/Nuvola-Digital/vola-docs/tree/main/",
+          editUrl: "https://github.com/Nuvola-Digital/vola-docs/tree/main/",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -63,70 +62,64 @@ const config: Config = {
       },
       items: [
         {
-          href: 'https://github.com/facebook/docusaurus',
-          position: 'right',
-          className: 'header-icon-link x',
-          'aria-label': 'Vola Network X (Twitter) handle',
+          href: "https://github.com/facebook/docusaurus",
+          position: "right",
+          className: "header-icon-link x",
+          "aria-label": "Vola Network X (Twitter) handle",
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
-          position: 'right',
-          className: 'header-icon-link facebook',
-          'aria-label': 'Vola Network Facebook page',
+          href: "https://github.com/facebook/docusaurus",
+          position: "right",
+          className: "header-icon-link facebook",
+          "aria-label": "Vola Network Facebook page",
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
-          position: 'right',
-          className: 'header-icon-link discord',
-          'aria-label': 'Nuvola Digital Discord server',
+          href: "https://github.com/facebook/docusaurus",
+          position: "right",
+          className: "header-icon-link discord",
+          "aria-label": "Nuvola Digital Discord server",
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
-          position: 'right',
-          className: 'header-icon-link github',
-          'aria-label': 'Vola Network GitHub repository',
+          href: "https://github.com/facebook/docusaurus",
+          position: "right",
+          className: "header-icon-link github",
+          "aria-label": "Vola Network GitHub repository",
         },
       ],
     },
     footer: {
       links: [
         {
-          title: "Docs",
-          items: [
-            {
-              label: "Vola Network",
-              to: "/docs/intro",
-            },
-          ],
+          label: "X (Twitter)",
+          href: "https://x.com/NuvolaDigital",
+          className: "header-icon-link x",
         },
         {
-          title: "Community",
-          items: [
-            {
-              label: "Discord",
-              href: "https://discord.gg/nuvola",
-            },
-            {
-              label: "X (Twitter)",
-              href: "https://x.com/NuvolaDigital",
-            },
-          ],
+          label: "Facebook",
+          href: "https://x.com/NuvolaDigital",
+          className: "header-icon-link facebook",
         },
         {
-          title: "More",
-          items: [
-            {
-              label: "GitHub",
-              href: "https://github.com/vola-network",
-            },
-          ],
+          label: "Discord",
+          href: "https://discord.gg/nuvola",
+          className: "header-icon-link discord",
+        },
+        {
+          label: "GitHub",
+          href: "https://github.com/vola-network",
+          className: "header-icon-link github",
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Nuvola Digital, Inc. Built with Docusaurus.`,
+      copyright: `<p class="truncate" style="width:100%;margin:0;">Copyright © 2024 Vola Network The Vola Network Authors Documentation Distributed under CC BY 4.0 | Open-source Apache 2.0 Licensed. | GitHub v0.20.0 | Privacy</p>`,
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+    },
+    docs: {
+      sidebar: {
+        hideable: true,
+      },
     },
   } satisfies Preset.ThemeConfig,
 };

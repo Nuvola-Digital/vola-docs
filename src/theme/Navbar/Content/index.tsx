@@ -8,10 +8,11 @@ import NavbarItem, { type Props as NavbarItemConfig } from "@theme/NavbarItem";
 import NavbarColorModeToggle from "@theme/Navbar/ColorModeToggle";
 import SearchBar from "@theme/SearchBar";
 import NavbarMobileSidebarToggle from "@theme/Navbar/MobileSidebar/Toggle";
-import NavbarLogo from "@theme/Navbar/Logo";
 import NavbarSearch from "@theme/Navbar/Search";
 
 import styles from "./styles.module.css";
+import VolaLogo from "./VolaLogo";
+import SidebarToggle from "../SidebarToggle";
 
 function useNavbarItems() {
   // TODO temporary casting until ThemeConfig type is improved
@@ -70,11 +71,18 @@ export default function NavbarContent(): JSX.Element {
     <NavbarContentLayout
       left={
         // TODO stop hardcoding items?
-        <>
+        <div style={{ display: "flex", alignItems: "center" }}>
           {!mobileSidebar.disabled && <NavbarMobileSidebarToggle />}
-          <NavbarLogo />
+          {!mobileSidebar.disabled && <SidebarToggle />}
+          <a
+            href="/"
+            title="Vola Network Docs"
+            style={{ display: "flex", alignItems: "center" }}
+          >
+            <VolaLogo />
+          </a>
           <NavbarItems items={leftItems} />
-        </>
+        </div>
       }
       center={
         <>
@@ -88,14 +96,26 @@ export default function NavbarContent(): JSX.Element {
       right={
         // TODO stop hardcoding items?
         // Ask the user to add the respective navbar items => more flexible
-        <div style={{ display: "flex", gap: "16px",alignItems: "center" }}>
+        <div style={{ display: "flex", gap: "16px", alignItems: "center" }}>
           <NavbarColorModeToggle className={styles.colorModeToggle} />
           <div style={{ display: "flex", gap: "12px" }}>
             <NavbarItems items={rightItems} />
           </div>
-          <button disabled style={{ backgroundColor: "var(--primary)", color: "white", display:"grid", borderRadius:"4px", padding:"6px 20px", border: "none" }}>
-            <span style={{fontSize:"16px",fontWeight:"bold"}}>App</span>
-            <span style={{fontSize:"12px"}}>Coming Soon</span>
+          <button
+            disabled
+            style={{
+              backgroundColor: "var(--primary)",
+              color: "white",
+              display: "grid",
+              borderRadius: "4px",
+              padding: "6px 20px",
+              border: "none",
+            }}
+          >
+            <span style={{ fontSize: "16px", fontWeight: "bold" }}>App</span>
+            <span style={{ fontSize: "12px", whiteSpace: "nowrap" }}>
+              Coming Soon
+            </span>
           </button>
         </div>
       }
