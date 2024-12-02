@@ -35,6 +35,12 @@ const config: Config = {
     [
       "classic",
       {
+        sitemap: {
+          lastmod: "date",
+          changefreq: "weekly",
+          priority: 0.5,
+          filename: "sitemap.xml",
+        },
         docs: {
           routeBasePath: "/",
           sidebarPath: "./sidebars.ts",
@@ -54,6 +60,11 @@ const config: Config = {
     respectPrefersColorScheme: false,
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
+    algolia: {
+      appId: "A58HZ2V7SM",
+      apiKey: "866a2c4d1f63266d835c9816d3dae031",
+      indexName: "vola",
+    },
     navbar: {
       title: "Vola Network",
       logo: {
