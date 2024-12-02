@@ -10,15 +10,15 @@ const config: Config = {
   favicon: "img/vola-logo.png",
 
   // Set the production url of your site here
-  url: "https://www.nuvoladigital.io/",
+  url: "https://docs.vola.network",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "nuvola-digital", // Usually your GitHub org/user name.
+  projectName: "Vola.Network Docs", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -35,12 +35,18 @@ const config: Config = {
     [
       "classic",
       {
+        sitemap: {
+          lastmod: "date",
+          changefreq: "weekly",
+          priority: 0.5,
+          filename: "sitemap.xml",
+        },
         docs: {
+          routeBasePath: "/",
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/Nuvola-Digital/vola-docs/tree/main/",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -50,8 +56,15 @@ const config: Config = {
   ],
 
   themeConfig: {
+    defaultMode: "dark",
+    respectPrefersColorScheme: false,
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
+    algolia: {
+      appId: "A58HZ2V7SM",
+      apiKey: "866a2c4d1f63266d835c9816d3dae031",
+      indexName: "vola",
+    },
     navbar: {
       title: "Vola Network",
       logo: {
@@ -60,58 +73,64 @@ const config: Config = {
       },
       items: [
         {
-          type: "docSidebar",
-          sidebarId: "volaDocSidebar",
-          position: "left",
-          label: "Docs",
+          href: "https://github.com/facebook/docusaurus",
+          position: "right",
+          className: "header-icon-link x",
+          "aria-label": "Vola Network X (Twitter) handle",
         },
         {
           href: "https://github.com/facebook/docusaurus",
-          label: "GitHub",
           position: "right",
+          className: "header-icon-link facebook",
+          "aria-label": "Vola Network Facebook page",
+        },
+        {
+          href: "https://github.com/facebook/docusaurus",
+          position: "right",
+          className: "header-icon-link discord",
+          "aria-label": "Nuvola Digital Discord server",
+        },
+        {
+          href: "https://github.com/facebook/docusaurus",
+          position: "right",
+          className: "header-icon-link github",
+          "aria-label": "Vola Network GitHub repository",
         },
       ],
     },
     footer: {
-      style: "dark",
       links: [
         {
-          title: "Docs",
-          items: [
-            {
-              label: "Vola Network",
-              to: "/docs/intro",
-            },
-          ],
+          label: "X (Twitter)",
+          href: "https://x.com/NuvolaDigital",
+          className: "header-icon-link x",
         },
         {
-          title: "Community",
-          items: [
-            {
-              label: "Discord",
-              href: "https://discord.gg/nuvola",
-            },
-            {
-              label: "X (Twitter)",
-              href: "https://x.com/NuvolaDigital",
-            },
-          ],
+          label: "Facebook",
+          href: "https://x.com/NuvolaDigital",
+          className: "header-icon-link facebook",
         },
         {
-          title: "More",
-          items: [
-            {
-              label: "GitHub",
-              href: "https://github.com/vola-network",
-            },
-          ],
+          label: "Discord",
+          href: "https://discord.gg/nuvola",
+          className: "header-icon-link discord",
+        },
+        {
+          label: "GitHub",
+          href: "https://github.com/vola-network",
+          className: "header-icon-link github",
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Nuvola Digital, Inc. Built with Docusaurus.`,
+      copyright: `<p class="truncate" style="width:100%;margin:0;">Copyright © 2024 Vola Network The Vola Network Authors Documentation Distributed under CC BY 4.0 | Open-source Apache 2.0 Licensed. | GitHub v0.20.0 | Privacy</p>`,
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+    },
+    docs: {
+      sidebar: {
+        hideable: true,
+      },
     },
   } satisfies Preset.ThemeConfig,
 };
