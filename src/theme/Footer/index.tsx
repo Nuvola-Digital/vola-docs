@@ -24,8 +24,7 @@ function Footer(): JSX.Element | null {
 
   const socialLinkGroup = links?.filter((item) => item.title === "Social")?.[0];
   const socialLinks = socialLinkGroup?.items;
-  console.log({links,socialLinkGroup, socialLinks}); 
-  
+
   return (
     <>
       <FooterLayout
@@ -44,8 +43,7 @@ function Footer(): JSX.Element | null {
               rel="noopener noreferrer"
               className={item.className}
               title={item.label}
-            >
-            </a>
+            ></a>
           ))}
         </div>
       )}
