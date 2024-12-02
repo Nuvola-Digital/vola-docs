@@ -121,7 +121,7 @@ const config: Config = {
           className: "header-icon-link github",
         },
       ],
-      copyright: `<p class="truncate" style="width:100%;margin:0;">Copyright © 2024 Vola Network The Vola Network Authors Documentation Distributed under CC BY 4.0 | Open-source Apache 2.0 Licensed. | GitHub v0.20.0 | Privacy</p>`,
+      copyright: `<p class="truncate" style="width:max-content;margin:0;">Copyright © 2024 Vola Network | Disclaimer | Privacy</p>`,
     },
     prism: {
       theme: prismThemes.github,
