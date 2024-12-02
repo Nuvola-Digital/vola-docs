@@ -21,11 +21,12 @@ export default function FooterLinkItem({ item }: Props): JSX.Element {
         : {
             to: toUrl,
           })}
-      title={label}
       {...props}
-      className={clsx("footer__link-item", props.className)}
+      className={clsx("tooltip-parent footer__link-item", props.className)}
     >
-      {/* {label}
+      <span className="tooltip">{item.label}</span>
+      {/* 
+              {label}
       {href && !isInternalUrl(href) && <IconExternalLink />} */}
     </Link>
   );

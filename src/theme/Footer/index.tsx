@@ -33,20 +33,7 @@ function Footer(): JSX.Element | null {
         logo={logo && <FooterLogo logo={logo} />}
         copyright={copyright && <FooterCopyright copyright={copyright} />}
       />
-      {socialLinks && (
-        <div style={{ display: "flex", gap: "12px", alignItems: "center" }}>
-          {(socialLinks as FooterLinkItem[]).map((item, i) => (
-            <a
-              key={i}
-              href={item.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={item.className}
-              title={item.label}
-            ></a>
-          ))}
-        </div>
-      )}
+      {""}
     </>
   );
 }

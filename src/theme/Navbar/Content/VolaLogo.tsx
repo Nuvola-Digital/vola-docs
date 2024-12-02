@@ -69,11 +69,11 @@ export default function VolaLogo() {
           y2="26.352"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4488C8" />
-          <stop offset="0.2" stop-color="#2CC0EE" />
-          <stop offset="0.5" stop-color="#41C1C6" />
-          <stop offset="0.8" stop-color="#4FC0AD" />
-          <stop offset="1" stop-color="#5AC095" />
+          <stop stopColor="#4488C8" />
+          <stop offset="0.2" stopColor="#2CC0EE" />
+          <stop offset="0.5" stopColor="#41C1C6" />
+          <stop offset="0.8" stopColor="#4FC0AD" />
+          <stop offset="1" stopColor="#5AC095" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_3870_357"
@@ -83,11 +83,11 @@ export default function VolaLogo() {
           y2="30.592"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4488C8" />
-          <stop offset="0.2" stop-color="#2CC0EE" />
-          <stop offset="0.5" stop-color="#41C1C6" />
-          <stop offset="0.8" stop-color="#4FC0AD" />
-          <stop offset="1" stop-color="#5AC095" />
+          <stop stopColor="#4488C8" />
+          <stop offset="0.2" stopColor="#2CC0EE" />
+          <stop offset="0.5" stopColor="#41C1C6" />
+          <stop offset="0.8" stopColor="#4FC0AD" />
+          <stop offset="1" stopColor="#5AC095" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_3870_357"
@@ -97,8 +97,8 @@ export default function VolaLogo() {
           y2="25.944"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#13B1DA" />
-          <stop offset="1" stop-color="#2C6096" />
+          <stop stopColor="#13B1DA" />
+          <stop offset="1" stopColor="#2C6096" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_3870_357"
@@ -108,8 +108,8 @@ export default function VolaLogo() {
           y2="21.696"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#13B1DA" />
-          <stop offset="1" stop-color="#2C6096" />
+          <stop stopColor="#13B1DA" />
+          <stop offset="1" stopColor="#2C6096" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_3870_357"
@@ -119,11 +119,11 @@ export default function VolaLogo() {
           y2="29.672"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4488C8" />
-          <stop offset="0.2" stop-color="#2CC0EE" />
-          <stop offset="0.5" stop-color="#41C1C6" />
-          <stop offset="0.8" stop-color="#4FC0AD" />
-          <stop offset="1" stop-color="#5AC095" />
+          <stop stopColor="#4488C8" />
+          <stop offset="0.2" stopColor="#2CC0EE" />
+          <stop offset="0.5" stopColor="#41C1C6" />
+          <stop offset="0.8" stopColor="#4FC0AD" />
+          <stop offset="1" stopColor="#5AC095" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_3870_357"
@@ -133,8 +133,8 @@ export default function VolaLogo() {
           y2="12.136"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#13B1DA" />
-          <stop offset="1" stop-color="#2C6096" />
+          <stop stopColor="#13B1DA" />
+          <stop offset="1" stopColor="#2C6096" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_3870_357"
@@ -144,11 +144,11 @@ export default function VolaLogo() {
           y2="7.41599"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4488C8" />
-          <stop offset="0.2" stop-color="#2CC0EE" />
-          <stop offset="0.5" stop-color="#41C1C6" />
-          <stop offset="0.8" stop-color="#4FC0AD" />
-          <stop offset="1" stop-color="#5AC095" />
+          <stop stopColor="#4488C8" />
+          <stop offset="0.2" stopColor="#2CC0EE" />
+          <stop offset="0.5" stopColor="#41C1C6" />
+          <stop offset="0.8" stopColor="#4FC0AD" />
+          <stop offset="1" stopColor="#5AC095" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_3870_357"
@@ -158,8 +158,8 @@ export default function VolaLogo() {
           y2="16.304"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#13B1DA" />
-          <stop offset="1" stop-color="#2C6096" />
+          <stop stopColor="#13B1DA" />
+          <stop offset="1" stopColor="#2C6096" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_3870_357"
@@ -169,11 +169,11 @@ export default function VolaLogo() {
           y2="20.8"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4488C8" />
-          <stop offset="0.2" stop-color="#2CC0EE" />
-          <stop offset="0.5" stop-color="#41C1C6" />
-          <stop offset="0.8" stop-color="#4FC0AD" />
-          <stop offset="1" stop-color="#5AC095" />
+          <stop stopColor="#4488C8" />
+          <stop offset="0.2" stopColor="#2CC0EE" />
+          <stop offset="0.5" stopColor="#41C1C6" />
+          <stop offset="0.8" stopColor="#4FC0AD" />
+          <stop offset="1" stopColor="#5AC095" />
         </linearGradient>
       </defs>
     </svg>
