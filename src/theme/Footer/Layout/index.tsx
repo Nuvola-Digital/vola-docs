@@ -14,7 +14,14 @@ export default function FooterLayout({
         "footer--dark": style === "dark",
       })}
     >
-      <div style={{ padding: 0, display:"flex", justifyContent: "center", alignItems: "center" }}>
+      <div
+        style={{
+          padding: 0,
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
         {(logo || copyright) && (
           <div
             className="footer__bottom text--center"
@@ -49,9 +56,9 @@ export default function FooterLayout({
                 <path
                   d="M12 5V19M12 5L16 9M12 5L8 9"
                   stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </button>
