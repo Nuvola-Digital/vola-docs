@@ -33,6 +33,7 @@ function Footer(): JSX.Element | null {
         logo={logo && <FooterLogo logo={logo} />}
         copyright={copyright && <FooterCopyright copyright={copyright} />}
       />
+      {""}
     </>
   );
 }
