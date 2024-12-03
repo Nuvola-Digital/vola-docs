@@ -1,3 +1,4 @@
+import React from "react";
 import { ComponentPropsWithoutRef } from "react";
 
 export function VolaLogo(props: ComponentPropsWithoutRef<"svg">) {
@@ -8,6 +9,7 @@ export function VolaLogo(props: ComponentPropsWithoutRef<"svg">) {
       viewBox="0 0 179 179"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      {...props}
     >
       <path
         d="M81.7672 116.636C65.9436 97.8414 46.5042 100.061 46.5042 100.061L64.261 129.023C64.261 129.023 76.2898 125.98 81.7672 116.636Z"
