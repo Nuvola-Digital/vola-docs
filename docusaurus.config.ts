@@ -64,7 +64,7 @@ const config: Config = {
       appId: "A58HZ2V7SM",
       apiKey: "866a2c4d1f63266d835c9816d3dae031",
       indexName: "vola",
-      contextualSearch: true,
+      contextualSearch: false,
     },
     navbar: {
       title: "Vola Network",
