@@ -62,8 +62,9 @@ const config: Config = {
     image: "img/docusaurus-social-card.jpg",
     algolia: {
       appId: "A58HZ2V7SM",
-      apiKey: "e9bea8062bbe469e30a93f7c5e1fc2ee",
+      apiKey: "866a2c4d1f63266d835c9816d3dae031",
       indexName: "vola",
+      contextualSearch: true,
     },
     navbar: {
       title: "Vola Network",
