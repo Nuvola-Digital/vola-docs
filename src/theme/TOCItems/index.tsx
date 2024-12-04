@@ -45,7 +45,7 @@ export default function TOCItems({
 
   return (
     <>
-      <h5 style={{ fontSize: "1rem", fontWeight: "bold" }}>Content</h5>
+      <h5 style={{ fontSize: "1rem", fontWeight: "bold" }}>Navigation</h5>
       <hr className="border-b" style={{ margin: 0, marginTop: "12px" }} />
       <TOCItemTree
         toc={tocTree}
