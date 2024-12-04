@@ -399,6 +399,12 @@ nav.navbar {
 }
 
 /* Footer */
+.custom-footer-link {
+  color: inherit;
+}
+.custom-footer-link:hover {
+  color: var(--primary);
+}
 footer.footer {
   border-top: 1px solid var(--ifm-toc-border-color);
   padding: 16px 24px;
@@ -551,4 +557,8 @@ p {
   transform: translate(50%, -50%);
   background-color: #171717;
   transition: opacity 0.2s ease-in-out;
+}
+
+.theme-back-to-top-button {
+  display: none;
 }
