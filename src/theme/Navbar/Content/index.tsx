@@ -12,7 +12,6 @@ import NavbarSearch from "@theme/Navbar/Search";
 
 import styles from "./styles.module.css";
 import VolaLogo from "./VolaLogo";
-import SidebarToggle from "../SidebarToggle";
 
 function useNavbarItems() {
   // TODO temporary casting until ThemeConfig type is improved
@@ -73,7 +72,6 @@ export default function NavbarContent(): JSX.Element {
         // TODO stop hardcoding items?
         <div style={{ display: "flex", alignItems: "center" }}>
           {!mobileSidebar.disabled && <NavbarMobileSidebarToggle />}
-          {!mobileSidebar.disabled && <SidebarToggle />}
           <a
             href="/"
             title="Vola Network Docs"
