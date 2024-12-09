@@ -2,6 +2,25 @@ import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
+const SOCIAL = {
+  X: {
+    label: "X (Twitter)",
+    href: "https://x.com/NuvolaDigital",
+  },
+  FACEBOOK: {
+    label: "Facebook",
+    href: "https://x.com/NuvolaDigital",
+  },
+  DISCORD: {
+    label: "Discord",
+    href: "https://discord.gg/nuvola",
+  },
+  GITHUB: {
+    label: "GitHub",
+    href: "https://github.com/vola-network",
+  },
+};
+
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
@@ -74,25 +93,25 @@ const config: Config = {
       },
       items: [
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: SOCIAL.X.href,
           position: "right",
           className: "header-icon-link x",
           "aria-label": "Vola Network X (Twitter) handle",
         },
+        // {
+        //   href: SOCIAL.FACEBOOK.href,
+        //   position: "right",
+        //   className: "header-icon-link facebook",
+        //   "aria-label": "Vola Network Facebook page",
+        // },
         {
-          href: "https://github.com/facebook/docusaurus",
-          position: "right",
-          className: "header-icon-link facebook",
-          "aria-label": "Vola Network Facebook page",
-        },
-        {
-          href: "https://github.com/facebook/docusaurus",
+          href: SOCIAL.DISCORD.href,
           position: "right",
           className: "header-icon-link discord",
           "aria-label": "Nuvola Digital Discord server",
         },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: SOCIAL.GITHUB.href,
           position: "right",
           className: "header-icon-link github",
           "aria-label": "Vola Network GitHub repository",
@@ -103,22 +122,22 @@ const config: Config = {
       links: [
         {
           label: "X (Twitter)",
-          href: "https://x.com/NuvolaDigital",
+          href: SOCIAL.X.href,
           className: "header-icon-link x",
         },
-        {
-          label: "Facebook",
-          href: "https://x.com/NuvolaDigital",
-          className: "header-icon-link facebook",
-        },
+        // {
+        //   label: "Facebook",
+        //   href: SOCIAL.FACEBOOK.href,
+        //   className: "header-icon-link facebook",
+        // },
         {
           label: "Discord",
-          href: "https://discord.gg/nuvola",
+          href: SOCIAL.DISCORD.href,
           className: "header-icon-link discord",
         },
         {
           label: "GitHub",
-          href: "https://github.com/vola-network",
+          href: SOCIAL.GITHUB.href,
           className: "header-icon-link github",
         },
       ],
