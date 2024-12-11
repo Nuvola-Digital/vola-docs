@@ -75,8 +75,10 @@ const config: Config = {
   ],
 
   themeConfig: {
-    defaultMode: "dark",
-    respectPrefersColorScheme: false,
+    colorMode: {
+      defaultMode: "dark",
+      respectPrefersColorScheme: false,
+    },
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     algolia: {
