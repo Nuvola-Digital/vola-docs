@@ -1,5 +1,6 @@
 ---
-sidebar_position: 1
+sidebar_position: 11
+draft: true
 ---
 
 # Web 2 User Authentication and Wallet Mapping

@@ -1,8 +1,8 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 ---
 
-# The Aggregator Node
+# Aggregator Node
 
 At the core of Vola Network is the Aggregator Node, which in addition to acting as a blockchain node, serves as the interface for users to connect and manage their files. This node facilitates communication between different storage solutions, allowing users to access, organize, and retrieve their data from a single platform.The major responsibilities of the node includes:
 

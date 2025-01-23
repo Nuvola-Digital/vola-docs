@@ -1,0 +1,8 @@
+{
+  "label": "Intoduction",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Vola network is a DePIN aggregator network based on substrate framework, leveraging its multi-chain capabilities enabling interoperability without being locked into a single chain."
+  }
+}

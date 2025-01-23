@@ -1,12 +1,8 @@
 ---
-sidebar_position: 4
+sidebar_position: 3
 ---
 
-# Product Catalogue
-
-## MVP Chain
-
-In the initial mvp product, a substrate chain will be developed with aggregation between decentralized options like IPFS or Iagon to centralized services like Dropbox or Google Drive, supporting multi-chain interactions, using the Cardano blockchain for financial transactions, and implementing Zero-Knowledge Proof (ZKP) circuits for Web 2 OAuth authentication, for transition from Web 2 to Web 3 for users.
+# Unified Interface
 
 ## Nuvola Drive
 

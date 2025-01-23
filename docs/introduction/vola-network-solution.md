@@ -1,8 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
-# The Comprehensive Solution
+# Vola Network's Solution
 
 Vola Network offers a comprehensive solution to the challenges users face in managing their data across multiple storage platforms though substrate based blockchain. By creating a unified storage aggregator chain, Vola Network addresses the key issues identified in the current digital landscape. Here’s how Vola Network effectively tackles each challenge:
 
