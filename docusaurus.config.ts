@@ -7,17 +7,13 @@ const SOCIAL = {
     label: "X (Twitter)",
     href: "https://x.com/NuvolaDigital",
   },
-  FACEBOOK: {
-    label: "Facebook",
-    href: "https://x.com/NuvolaDigital",
-  },
   DISCORD: {
     label: "Discord",
     href: "https://discord.gg/nuvola",
   },
   GITHUB: {
     label: "GitHub",
-    href: "https://github.com/vola-network",
+    href: "https://github.com/Nuvola-Digital",
   },
 };
 
@@ -63,9 +59,8 @@ const config: Config = {
         docs: {
           routeBasePath: "/",
           sidebarPath: "./sidebars.ts",
-          // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/Nuvola-Digital/vola-docs/tree/main/",
+          // editUrl: "https://github.com/Nuvola-Digital/vola-docs/tree/main/",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -80,7 +75,7 @@ const config: Config = {
       respectPrefersColorScheme: false,
     },
     // Replace with your project's social card
-    image: "img/docusaurus-social-card.jpg",
+    image: "img/vola-card.jpg",
     algolia: {
       appId: "A58HZ2V7SM",
       apiKey: "866a2c4d1f63266d835c9816d3dae031",
