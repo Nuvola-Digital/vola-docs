@@ -39,6 +39,7 @@
 .admonitionContent {
   text-transform: none;
   font-size: 1rem;
+  font-weight: normal;
 }
 .admonitionContent > :last-child {
   margin-bottom: 0;
