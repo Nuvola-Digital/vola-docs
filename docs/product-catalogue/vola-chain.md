@@ -4,4 +4,4 @@ sidebar_position: 1
 
 # Vola Chain
 
-In the initial mvp product, a substrate chain will be developed with aggregation between decentralized options like IPFS or Iagon to centralized services like Dropbox or Google Drive, supporting multi-chain interactions, using the Cardano blockchain for financial transactions, and implementing Zero-Knowledge Proof (ZKP) circuits for Web 2 OAuth authentication, for transition from Web 2 to Web 3 for users.
+Vola Chain is the underlying Substrate-based blockchain that powers the Vola Network. It facilitates key operations such as storage management, authentication, and transaction handling, while ensuring security and immutability of data. The blockchain is composed of several key entities, including Validator Nodes, RPC Nodes, and Offchain Workers, which ensure smooth functioning and interaction with users and the network.

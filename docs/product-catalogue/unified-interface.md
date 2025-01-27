@@ -4,8 +4,12 @@ sidebar_position: 3
 
 # Unified Interface
 
-## Nuvola Drive
+The Unified Interface of Vola Network provides users with an intuitive and seamless way to interact with the Vola Chain and various storage solutions, abstracting the complex technical components of the underlying system. This interface simplifies interactions with both decentralized (e.g., IPFS, Iagon, etc.) and centralized storage providers (e.g., Google Drive, Dropbox), allowing users to easily manage their files without needing any blockchain or technical knowledge.
 
-Vola Network will power the back-end to our in-house products, one of which is Nuvola Drive – a Web2 cloud storage app with a web3 back-end.
+The goal of the Unified Interface is to bridge the gap between Web 2.0 and Web 3.0, enabling users to explore decentralized storage options while maintaining a familiar, user-friendly experience. By offering a centralized platform to interact with diverse storage solutions, the Unified Interface ensures that users have the flexibility to choose the best storage provider for their needs, all within a single, cohesive platform.
 
-Nuvola Drive will be an all in one cloud storage aggregator mobile app, set to hit App stores in Q1 2025. Users will have the ability to choose between many decentralized (IPFS, Storj, Arweave, DeNet, etc) and centralized (Google Drive, Dropbox, etc) storage providers. This essentially makes Nuvola Drive the “Uber Eats” of cloud storage. Its ease of use will welcome any and all users, while also showcasing new decentralized solutions options. This familiar yet innovative service will help newer protocol gains exposure while competing on a level playing field with more established service providers.
+:::note[**Nuvola Drive**]
+
+The Nuvola Drive is currently under development and will integrate with Vola Network as the primary unified interface, providing users with a simple, familiar way to access both decentralized and centralized storage solutions.
+
+:::
