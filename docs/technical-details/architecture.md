@@ -4,7 +4,13 @@ sidebar_position: 1
 
 # Architecture
 
-<!-- ![Vola Network System Architecture](./img/system-architecture-diagram.png) -->
+:::note
+
+This architecture diagram is based on the current implementation of the Vola Network. Some features may be incomplete or subject to change as development progresses. Updates will be provided accordingly.
+
+:::
+
+![Vola Network Architecture](/diagrams/Vola-Network-Architecture.jpg)
 
 ## Vola Chain
 
