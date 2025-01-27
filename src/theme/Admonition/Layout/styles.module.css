@@ -36,8 +36,9 @@
   color: var(--ifm-alert-foreground-color);
 }
 
-.admonitionContent{
+.admonitionContent {
   text-transform: none;
+  font-size: 1rem;
 }
 .admonitionContent > :last-child {
   margin-bottom: 0;
