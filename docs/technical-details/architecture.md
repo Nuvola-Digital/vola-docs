@@ -46,33 +46,30 @@ Vola Chain is the underlying Substrate-based blockchain that powers the Vola Net
 - **Validator Commitments:**
   Validator nodes commit to the integrity of OAuth tokens, file storage proofs and periodically validate their validity, ensuring the network's security.
 
-## Gateway/Aggregator Node
+## Aggregator(/Gateway) Node
 
 ### Aggregation Layer
 
-The Gateway Node (also known as the Aggregator Node) acts as a bridge between users and the underlying decentralized storage solutions. These nodes manage and aggregate users' files across different storage providers, ensuring seamless interactions and synchronization across multiple platforms. Gateway Nodes are responsible for handling users’ upload requests, ensuring that files are securely stored, and ensuring the blockchain is updated with the latest changes.
+The Aggregator Node (also known as the Gateway Node) acts as a bridge between users and the underlying decentralized storage solutions. These nodes manage and aggregate users' files across different storage providers, ensuring seamless interactions and synchronization across multiple platforms. Aggregator Nodes are responsible for handling users’ upload requests, ensuring that files are securely stored, and ensuring the blockchain is updated with the latest changes.
 
-### Components of Gateway Node
+### Components of Aggregator Node
 
 - **File Upload Interface:**
-  Gateway Nodes receive and process file upload requests from users. They aggregate the files across multiple decentralized storage platforms, ensuring the files are stored across the most appropriate solutions based on redundancy, speed, cost, and availability.
+  Aggregator Nodes receive and process file upload requests from users. They aggregate the files across multiple decentralized storage platforms, ensuring the files are stored across the most appropriate solutions based on redundancy, speed, cost, and availability.
 
 - **Synchronization & Aggregation Logic:**
-  Once files are uploaded, the Gateway Nodes synchronize data across storage platforms and perform periodic data migrations to ensure redundancy and availability. These nodes are tasked with keeping track of file locations, availability, and synchronization between decentralized and centralized providers.
+  Once files are uploaded, the Aggregator Nodes synchronize data across storage platforms and perform periodic data migrations to ensure redundancy and availability. These nodes are tasked with keeping track of file locations, availability, and synchronization between decentralized and centralized providers.
 
 - **Blockchain Interaction & Updates:**
-  Gateway Nodes actively listen to and commit updates to the Vola Chain. They register on the chain as valid nodes and provide metadata about user uploads. Updates to the blockchain may include file ownership proofs, metadata changes, or transactions related to storage services.
+  Aggregator Nodes actively listen to and commit updates to the Vola Chain. They register on the chain as valid nodes and provide metadata about user uploads. Updates to the blockchain may include file ownership proofs, metadata changes, or transactions related to storage services.
 
-### Key Functions of Gateway/Aggregator Node
+### Key Functions of Aggregator Node
 
 - **File Aggregation Across Platforms:**
-  The Gateway Node aggregates users' files from decentralized storage solutions like IPFS, Iagon etc., providing a single unified platform for file management.
-
-- **Scalability & Load Balancing:**
-  Gateway Nodes are designed to scale based on user demand, ensuring that the aggregation process can handle an increasing volume of files and data without compromising performance.
+  The Aggregator Node aggregates users' files from decentralized storage solutions like IPFS, Iagon etc., providing a single unified platform for file management.
 
 - **User Data Privacy and Security:**
-  Gateway Nodes must operate in compliance with Vola Network's privacy standards, including encrypting data before it is uploaded to storage platforms and ensuring that ownership proofs are correctly handled.
+  Aggregator Nodes must operate in compliance with Vola Network's privacy standards, including encrypting data before it is uploaded to storage platforms and ensuring that ownership proofs are correctly handled.
 
 - **Cross-Chain File Management:**
-  Since Vola Network supports multi-chain interoperability, the Gateway Nodes must be capable of interacting with different blockchains to manage file storage and transactions across various blockchain ecosystems.
+  Since Vola Network supports multi-chain interoperability, the Aggregator Nodes must be capable of interacting with different blockchains to manage file storage and transactions across various blockchain ecosystems.
