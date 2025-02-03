@@ -20,7 +20,7 @@ const SOCIAL = {
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "Vola Network",
+  title: "Vola Network - Documentation",
   tagline: "Unified Storage Aggregator Network",
   favicon: "img/vola-logo.png",
 
@@ -75,13 +75,13 @@ const config: Config = {
       respectPrefersColorScheme: false,
     },
     metadata: [
-      { name: "title", content: "Vola Network" },
+      { name: "title", content: "Vola Network - Documentation" },
       {
         name: "description",
         content:
           "A Substrate-based DePIN aggregator enabling seamless interoperability across chains, powered by the Aggregator Nodes for unified resource management across diverse DePIN solutions.",
       },
-      { property: "og:title", content: "Vola Network" },
+      { property: "og:title", content: "Vola Network - Documentation" },
       {
         property: "og:description",
         content:
@@ -89,7 +89,7 @@ const config: Config = {
       },
       { property: "og:image", content: "/img/vola-network.png" },
       { property: "og:url", content: "/" },
-      { name: "twitter:title", content: "Vola Network" },
+      { name: "twitter:title", content: "Vola Network - Documentation" },
       {
         name: "twitter:description",
         content:
