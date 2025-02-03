@@ -31,5 +31,3 @@ Vola Explorer is the blockchain explorer for Vola Chain, providing real-time ins
 - **Monitor Blocks** – Check the latest blocks added to the chain.
 - **Track Transactions** – View transaction details, including sender, receiver, and status.
 - **Explore Events** – Check the latest events on the network.
-
-The Vola Explorer can be accessed at https://explorer.volanetwork.io
