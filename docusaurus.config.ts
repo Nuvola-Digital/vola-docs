@@ -138,7 +138,7 @@ const config: Config = {
           className: "header-icon-link github",
         },
       ],
-      copyright: `<p class="truncate" style="width:max-content;margin:0;">Copyright © 2024 Vola Network</p>`,
+      copyright: `<p class="truncate" style="width:max-content;margin:0;">Copyright © 2025 Vola Network</p>`,
     },
     prism: {
       theme: prismThemes.github,

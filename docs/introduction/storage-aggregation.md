@@ -7,7 +7,7 @@ import ThemedImage from '@theme/ThemedImage';
 
 # Storage Aggregation
 
-Vola offers a comprehensive solution to the challenges users face in managing their data across multiple storage platforms though substrate based blockchain. By creating a unified storage aggregator chain, Vola addresses the key issues identified in the current digital landscape. Here’s how Vola effectively tackles each challenge:
+Vola offers a comprehensive solution to the challenges users face in managing their data across multiple storage platforms through substrate based blockchain. By creating a unified storage aggregator chain, Vola addresses the key issues identified in the current digital landscape. Here’s how Vola effectively tackles each challenge:
 
 <ThemedImage
 alt="Vola Chain"

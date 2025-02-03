@@ -55,7 +55,7 @@ Vola Chain is the underlying Substrate-based blockchain that powers the Vola. It
 - **Validator Commitments:**
   Validator nodes commit to the integrity of OAuth tokens, file storage proofs and periodically validate their validity, ensuring the network's security.
 
-## Aggregator(/Gateway) Node
+## Aggregator(or Gateway) Node
 
 ### Aggregation Layer
 

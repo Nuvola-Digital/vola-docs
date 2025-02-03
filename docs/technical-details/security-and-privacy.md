@@ -77,6 +77,5 @@ To ensure the security and privacy of user files, Vola employs end-to-end encryp
 
 - **Cardano Blockchain for Payments:**
   Transactions within the Vola, including payments for storage services, are settled on the Cardano blockchain, ensuring secure, low-cost, and scalable payments. The blockchain’s security model provides a robust foundation for managing financial transactions within the ecosystem.
-  User-Controlled Data
 - **Privacy-First Approach:**
   At every stage, Vola ensures that users have full control over their data. By using ZKPs, encryption, and immutable ownership proofs, Vola guarantees that user data is never exposed or accessible to unauthorized parties.
