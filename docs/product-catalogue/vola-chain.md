@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Vola Chain
 
-Vola Chain is the underlying Substrate-based blockchain that powers the Vola Network. It facilitates key operations such as storage management, authentication, and transaction handling, while ensuring security and immutability of data. The blockchain is composed of several key entities, including Validator Nodes, RPC Nodes, and Offchain Workers, which ensure smooth functioning and interaction with users and the network.
+Vola Chain is the underlying Substrate-based blockchain that powers the Vola. It facilitates key operations such as storage management, authentication, and transaction handling, while ensuring security and immutability of data. The blockchain is composed of several key entities, including Validator Nodes, RPC Nodes, and Offchain Workers, which ensure smooth functioning and interaction with users and the network.
 
 ## Key Features
 
@@ -23,12 +23,6 @@ Vola Chain is the underlying Substrate-based blockchain that powers the Vola Net
 - **Validator Commitments:**
   - Validators commit to verifying the integrity of OAuth tokens, file storage proofs, and other critical data.
   - Regularly validate data authenticity to maintain network trust and security.
-
-:::info[**Setting Up and Running a Vola Chain Node**]
-
-To set up and run a Vola Chain node, refer to the Quick Start Guide for detailed instructions.
-
-:::
 
 ## Vola Explorer
 

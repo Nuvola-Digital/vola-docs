@@ -8,7 +8,7 @@ sidebar_position: 2
 
 :::warning[**Disclaimer**]
 
-This is an early demo of the Vola Network. Some features may be incomplete or missing. Files are not encrypted, and data loss may occur.
+This is an early demo of the Vola. Some features may be incomplete or missing. Files are not encrypted, and data loss may occur.
 
 This demo is for testing purposes only—do not rely on it for storing important files.
 

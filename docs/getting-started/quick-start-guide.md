@@ -20,7 +20,7 @@ Before you begin, ensure you have the following installed:
 ### Quick Start
 
 1. **Clone the Repository:**
-   Clone the Vola Network Docker repository to your local machine:
+   Clone the Vola Node Docker repository to your local machine:
 
 ```bash
 git clone https://github.com/Nuvola-Digital/vola-node-docker

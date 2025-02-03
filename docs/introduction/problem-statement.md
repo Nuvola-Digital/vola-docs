@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Problem Statement
 
-In the rapidly evolving digital landscape, users face significant challenges when it comes to managing their data across various storage solutions. Here are some key issues that highlight the need for a unified storage aggregator like Vola Network:
+In the rapidly evolving digital landscape, users face significant challenges when it comes to managing their data across various storage solutions. Here are some key issues that highlight the need for a unified storage aggregator like Vola:
 
 ### Fragmentation of Storage Solutions
 
@@ -22,8 +22,8 @@ With increasing awareness of data breaches and privacy issues, users are underst
 
 The current ecosystem lacks interoperability between different storage platforms and blockchains. Users are often locked into specific ecosystems, making it difficult to transfer data or use services across chains. This limitation restricts user flexibility and choice, hampering the potential for innovation in data storage solutions.
 
-### Transition Challenges from Web 2 to Web 3
+### Transition Challenges from Web2 to Web3
 
-As the digital world shifts toward decentralized solutions, users face hurdles when transitioning from Web 2 to Web 3. Many users are unfamiliar with blockchain technology and may find the authentication and onboarding processes complex. This gap can hinder widespread adoption of decentralized storage solutions.
+As the digital world shifts toward decentralized solutions, users face hurdles when transitioning from Web2 to Web3. Many users are unfamiliar with blockchain technology and may find the authentication and onboarding processes complex. This gap can hinder widespread adoption of decentralized storage solutions.
 
 These challenges highlight the need for a unified solution that can address the fragmentation of storage platforms, enhance security and authentication, improve interoperability, and provide cost-effective, privacy-focused options.
