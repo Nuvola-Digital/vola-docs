@@ -562,3 +562,7 @@ p {
 .theme-back-to-top-button {
   display: none;
 }
+
+.navbar-sidebar__back {
+  display: none;
+}

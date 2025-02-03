@@ -7,6 +7,8 @@
   border: 1px solid var(--ifm-color-emphasis-300);
   transition: all var(--ifm-transition-fast) ease;
   transition-property: border, box-shadow;
+  height: 100%;
+  display: grid;
 }
 
 .cardContainer:hover {
@@ -15,6 +17,7 @@
 
 .cardContainer *:last-child {
   margin-bottom: 0;
+  align-self: end;
 }
 
 .cardTitle {
