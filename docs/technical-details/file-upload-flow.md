@@ -2,6 +2,9 @@
 sidebar_position: 4
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import ThemedImage from '@theme/ThemedImage';
+
 # File Upload Flow
 
 :::note
@@ -12,8 +15,13 @@ This documentation is based on the current implementation of the Vola. Some feat
 
 File upload in the Vola Network ensures secure and efficient management of user files across decentralized storage platforms. The process involves interactions between the User, the Vola Chain, and Gateway Nodes.
 
-![Vola Upload Flow](/diagrams/Vola-Upload-Flow-dark.png)
-![Vola Upload Flow](/diagrams/Vola-Upload-Flow-light.png)
+<ThemedImage
+alt="Vola Upload Flow"
+sources={{
+    light: useBaseUrl('/diagrams/Vola-Upload-Flow-light.png'),
+    dark: useBaseUrl('/diagrams/Vola-Upload-Flow-dark.png'),
+  }}
+/>
 
 The above sequence diagram illustrates the interaction flow between the User, the Vola Chain, and the Gateway Node during the file upload process. Each step aligns with the described actions above.
 
