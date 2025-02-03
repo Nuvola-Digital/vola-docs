@@ -20,6 +20,8 @@ sources={{
 
 ### Unified Interface for Compute & Storage Management
 
+Vola serves as a central interface for users, integrating various compute and storage solutions—both centralized and decentralized—into a single platform. This cohesive experience simplifies resource allocation, data access, and management, allowing users to execute compute tasks, retrieve data, and control their files without the confusion of navigating multiple services.
+
 <ThemedImage
 alt="Vola Network Abstraction"
 sources={{
@@ -27,8 +29,6 @@ sources={{
     dark: useBaseUrl('/diagrams/Vola-Abstraction-dark.png'),
   }}
 />
-
-Vola serves as a central interface for users, integrating various compute and storage solutions—both centralized and decentralized—into a single platform. This cohesive experience simplifies resource allocation, data access, and management, allowing users to execute compute tasks, retrieve data, and control their files without the confusion of navigating multiple services.
 
 ### Streamlined Resource Management
 
