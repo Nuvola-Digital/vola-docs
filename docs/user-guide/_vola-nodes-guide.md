@@ -3,7 +3,7 @@ sidebar_position: 1
 draft: true
 ---
 
-# Quick Start Guide
+# Vola Nodes Guide
 
 ## Running a Vola Chain Node
 

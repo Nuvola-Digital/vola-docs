@@ -31,6 +31,5 @@ Vola Network, its developers, contributors, and partners shall not be liable for
 ## Changes to the Disclaimer
 
 This disclaimer may be updated as the project evolves. Users should review it periodically to stay informed about any modifications.
-By engaging with Vola Network in its devnet phase, you acknowledge and accept the experimental nature of the platform.
 
 By engaging with Vola Network in its devnet phase, you acknowledge and accept the experimental nature of the platform.

@@ -74,6 +74,30 @@ const config: Config = {
       defaultMode: "dark",
       respectPrefersColorScheme: false,
     },
+    metadata: [
+      { name: "title", content: "Vola Network" },
+      {
+        name: "description",
+        content:
+          "A Substrate-based DePIN aggregator enabling seamless interoperability across chains, powered by the Aggregator Node for unified file management across diverse storage solutions.",
+      },
+      { property: "og:title", content: "Vola Network" },
+      {
+        property: "og:description",
+        content:
+          "A Substrate-based DePIN aggregator enabling seamless interoperability across chains, powered by the Aggregator Node for unified file management across diverse storage solutions.",
+      },
+      { property: "og:image", content: "/img/vola-network.jpg" },
+      { property: "og:url", content: "/" },
+      { name: "twitter:title", content: "Vola Network" },
+      {
+        name: "twitter:description",
+        content:
+          "A Substrate-based DePIN aggregator enabling seamless interoperability across chains, powered by the Aggregator Node for unified file management across diverse storage solutions.",
+      },
+      { name: "twitter:image", content: "/img/vola-network.jpg" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
     // Replace with your project's social card
     image: "img/vola-card.jpg",
     algolia: {
