@@ -53,15 +53,15 @@ export default function FooterLayout({
               {copyright}
             </div>
             <div>
-              <a href="#" className="custom-footer-link">
+              <a href="/legal/terms-of-service" className="custom-footer-link">
                 Terms of Service
               </a>
               <span>|</span>
-              <a href="#" className="custom-footer-link">
+              <a href="/legal/disclaimer" className="custom-footer-link">
                 Disclaimer
               </a>
               <span>|</span>
-              <a href="#" className="custom-footer-link">
+              <a href="/legal/privacy-policy" className="custom-footer-link">
                 Privacy
               </a>
             </div>
