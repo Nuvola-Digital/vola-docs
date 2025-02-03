@@ -6,7 +6,7 @@ sidebar_position: 1
 
 :::note
 
-This architecture diagram is based on the current implementation of the Vola Network. Some features may be incomplete or subject to change as development progresses. Updates will be provided accordingly.
+This architecture diagram is based on the current implementation of the Vola. Some features may be incomplete or subject to change as development progresses. Updates will be provided accordingly.
 
 :::
 
@@ -16,7 +16,7 @@ This architecture diagram is based on the current implementation of the Vola Net
 
 ### Blockchain Layer
 
-Vola Chain is the underlying Substrate-based blockchain that powers the Vola Network. It facilitates key operations such as storage management, authentication, and transaction handling, while ensuring security and immutability of data. The blockchain is composed of several key entities, including Validator Nodes, RPC Nodes, and Offchain Workers, which ensure smooth functioning and interaction with users and the network.
+Vola Chain is the underlying Substrate-based blockchain that powers the Vola. It facilitates key operations such as storage management, authentication, and transaction handling, while ensuring security and immutability of data. The blockchain is composed of several key entities, including Validator Nodes, RPC Nodes, and Offchain Workers, which ensure smooth functioning and interaction with users and the network.
 
 ### Components of Vola Chain
 
@@ -38,7 +38,7 @@ Vola Chain is the underlying Substrate-based blockchain that powers the Vola Net
   The blockchain stores cryptographic proofs of file ownership, allowing users to verify that they retain permanent, immutable control over their files, even when aggregated across different storage solutions.
 
 - **OAuth & ZKP Authentication:**
-  User authentication using Web 2.0 OAuth services is tracked and validated on-chain with Zero-Knowledge Proofs (ZKP) to ensure privacy and security of users' identities.
+  User authentication using Web2 OAuth services is tracked and validated on-chain with Zero-Knowledge Proofs (ZKP) to ensure privacy and security of users' identities.
 
 - **Data Migration & Aggregation:**
   Vola Chain handles the periodic data migration of files across different storage providers and ensures that these actions are recorded securely on the blockchain.
@@ -69,7 +69,7 @@ The Aggregator Node (also known as the Gateway Node) acts as a bridge between us
   The Aggregator Node aggregates users' files from decentralized storage solutions like IPFS, Iagon etc., providing a single unified platform for file management.
 
 - **User Data Privacy and Security:**
-  Aggregator Nodes must operate in compliance with Vola Network's privacy standards, including encrypting data before it is uploaded to storage platforms and ensuring that ownership proofs are correctly handled.
+  Aggregator Nodes must operate in compliance with Vola's privacy standards, including encrypting data before it is uploaded to storage platforms and ensuring that ownership proofs are correctly handled.
 
 - **Cross-Chain File Management:**
-  Since Vola Network supports multi-chain interoperability, the Aggregator Nodes must be capable of interacting with different blockchains to manage file storage and transactions across various blockchain ecosystems.
+  Since Vola supports multi-chain interoperability, the Aggregator Nodes must be capable of interacting with different blockchains to manage file storage and transactions across various blockchain ecosystems.

@@ -6,7 +6,7 @@ sidebar_position: 4
 
 :::note
 
-This documentation is based on the current implementation of the Vola Network. Some features may be incomplete or subject to change as development progresses. Updates will be provided accordingly.
+This documentation is based on the current implementation of the Vola. Some features may be incomplete or subject to change as development progresses. Updates will be provided accordingly.
 
 :::
 

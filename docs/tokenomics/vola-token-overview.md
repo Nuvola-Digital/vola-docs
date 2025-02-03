@@ -73,7 +73,7 @@ Many of the allocations (such as for the team, VC, and community) are subject to
 
 :::info[**Incentivizing Growth**]
 
-The 46% allocated to community incentives and 6% to NVL holders demonstrates that Vola Network is highly focused on rewarding its community, incentivizing early participation, and driving adoption. This allocation is critical for network growth and user acquisition.
+The 51% allocated to community incentives and 6% to NVL holders demonstrates that Vola Network is highly focused on rewarding its community, incentivizing early participation, and driving adoption. This allocation is critical for network growth and user acquisition.
 
 :::
 
