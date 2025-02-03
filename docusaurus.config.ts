@@ -79,23 +79,23 @@ const config: Config = {
       {
         name: "description",
         content:
-          "A Substrate-based DePIN aggregator enabling seamless interoperability across chains, powered by the Aggregator Node for unified file management across diverse storage solutions.",
+          "A Substrate-based DePIN aggregator enabling seamless interoperability across chains, powered by the Aggregator Nodes for unified resource management across diverse DePIN solutions.",
       },
       { property: "og:title", content: "Vola Network" },
       {
         property: "og:description",
         content:
-          "A Substrate-based DePIN aggregator enabling seamless interoperability across chains, powered by the Aggregator Node for unified file management across diverse storage solutions.",
+          "A Substrate-based DePIN aggregator enabling seamless interoperability across chains, powered by the Aggregator Nodes for unified resource management across diverse DePIN solutions.",
       },
-      { property: "og:image", content: "/img/vola-network.jpg" },
+      { property: "og:image", content: "/img/vola-network.png" },
       { property: "og:url", content: "/" },
       { name: "twitter:title", content: "Vola Network" },
       {
         name: "twitter:description",
         content:
-          "A Substrate-based DePIN aggregator enabling seamless interoperability across chains, powered by the Aggregator Node for unified file management across diverse storage solutions.",
+          "A Substrate-based DePIN aggregator enabling seamless interoperability across chains, powered by the Aggregator Nodes for unified resource management across diverse DePIN solutions.",
       },
-      { name: "twitter:image", content: "/img/vola-network.jpg" },
+      { name: "twitter:image", content: "/img/vola-network.png" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     // Replace with your project's social card
