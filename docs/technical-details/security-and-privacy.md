@@ -59,15 +59,15 @@ To ensure the security and privacy of user files, Vola employs end-to-end encryp
 
 ### File Integrity and Ownership Proofs
 
-- Cryptographic Proof of Ownership: Every file uploaded to Vola is assigned a unique cryptographic proof of ownership, ensuring the user’s control over the file. This proof is recorded on the blockchain, ensuring that the ownership remains immutable and verifiable.
-  Immutable Data Record: The blockchain guarantees that once a file's ownership is recorded, it cannot be altered, adding an additional layer of security for users' data.
+- **Cryptographic Proof of Ownership:** Every file uploaded to Vola is assigned a unique cryptographic proof of ownership, ensuring the user’s control over the file. This proof is recorded on the blockchain, ensuring that the ownership remains immutable and verifiable.
+- **Immutable Data Record:** The blockchain guarantees that once a file's ownership is recorded, it cannot be altered, adding an additional layer of security for users' data.
 
 ## Additional Security Protocols
 
 ### Blockchain-Based Security
 
-- Immutable Ledger: The decentralized nature of Vola's underlying blockchain (Vola Chain) ensures that all transactions, file uploads, and metadata updates are recorded immutably. This prevents data tampering or unauthorized access to records.
-- Periodic Validator Checks: Validator nodes regularly commit to the authenticity of OAuth tokens and file ownership proofs on the blockchain. This ensures the integrity of the authentication process and file ownership across the network.
+- **Immutable Ledger:** The decentralized nature of Vola's underlying blockchain (Vola Chain) ensures that all transactions, file uploads, and metadata updates are recorded immutably. This prevents data tampering or unauthorized access to records.
+- **Periodic Validator Checks:** Validator nodes regularly commit to the authenticity of OAuth tokens and file ownership proofs on the blockchain. This ensures the integrity of the authentication process and file ownership across the network.
 
 ### Redundancy and Data Availability
 
@@ -77,6 +77,5 @@ To ensure the security and privacy of user files, Vola employs end-to-end encryp
 
 - **Cardano Blockchain for Payments:**
   Transactions within the Vola, including payments for storage services, are settled on the Cardano blockchain, ensuring secure, low-cost, and scalable payments. The blockchain’s security model provides a robust foundation for managing financial transactions within the ecosystem.
-  User-Controlled Data
 - **Privacy-First Approach:**
   At every stage, Vola ensures that users have full control over their data. By using ZKPs, encryption, and immutable ownership proofs, Vola guarantees that user data is never exposed or accessible to unauthorized parties.

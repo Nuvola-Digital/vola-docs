@@ -3,7 +3,7 @@ sidebar_position: 2
 draft: true
 ---
 
-# User Guide
+# App Usage Guide
 
 ## Navigating the Unified Interface
 

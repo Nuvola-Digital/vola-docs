@@ -31,7 +31,7 @@ Vola supports a variety of blockchain networks and decentralized storage platfor
   As Vola Chain is built on the Substrate framework, it inherently supports other Substrate-based blockchains, providing seamless interoperability between different Substrate ecosystems.
 - **IPFS:**
   A decentralized file storage system integrated into the network for storing and sharing files in a distributed manner.
-  **Iagon:**
+- **Iagon:**
   A cardano based decentralized storage provider integrated into Vola, offering additional storage options with enhanced security and redundancy.
 - **Ethereum (future integration):**
   Vola plans to integrate with Ethereum and other major blockchains to expand its reach, enabling users to perform storage-related transactions and file management on Ethereum-based platforms as well.
