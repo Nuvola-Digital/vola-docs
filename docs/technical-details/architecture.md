@@ -2,6 +2,9 @@
 sidebar_position: 1
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import ThemedImage from '@theme/ThemedImage';
+
 # Architecture
 
 :::note
@@ -10,8 +13,13 @@ This architecture diagram is based on the current implementation of the Vola. So
 
 :::
 
-![Vola Network Architecture](/diagrams/Vola-Network-Architecture-dark.png)
-![Vola Network Architecture](/diagrams/Vola-Network-Architecture-light.png)
+<ThemedImage
+alt="Vola Network Architecture"
+sources={{
+    light: useBaseUrl('/diagrams/Vola-Network-Architecture-light.png'),
+    dark: useBaseUrl('/diagrams/Vola-Network-Architecture-dark.png'),
+  }}
+/>;
 
 ## Vola Chain
 

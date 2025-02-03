@@ -2,16 +2,30 @@
 sidebar_position: 3
 ---
 
-# Our Solution
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import ThemedImage from '@theme/ThemedImage';
 
-![Vola Network Abstraction](/diagrams/Vola-Abstraction-dark.png)
-![Vola Network Abstraction](/diagrams/Vola-Abstraction-light.png)
-![Vola Chain](/diagrams/Vola-Chain-dark.png)
-![Vola Chain](/diagrams/Vola-Chain-light.png)
+# Our Solution
 
 Vola offers a comprehensive solution to the challenges users face in managing their data across multiple storage platforms though substrate based blockchain. By creating a unified storage aggregator chain, Vola addresses the key issues identified in the current digital landscape. Here’s how Vola effectively tackles each challenge:
 
+<ThemedImage
+alt="Vola Chain"
+sources={{
+    light: useBaseUrl('/diagrams/Vola-Chain-light.png'),
+    dark: useBaseUrl('/diagrams/Vola-Chain-dark.png'),
+  }}
+/>
+
 ### Unified Interface for Storage Management
+
+<ThemedImage
+alt="Vola Network Abstraction"
+sources={{
+    light: useBaseUrl('/diagrams/Vola-Abstraction-light.png'),
+    dark: useBaseUrl('/diagrams/Vola-Abstraction-dark.png'),
+  }}
+/>
 
 Vola serves as a central interface for users, integrating various storage solutions—both centralized and decentralized—into a single platform. This cohesive experience simplifies data access and management, allowing users to retrieve, organize, and control their files without the confusion of navigating multiple services.
 
