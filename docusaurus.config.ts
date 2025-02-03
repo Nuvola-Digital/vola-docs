@@ -74,6 +74,30 @@ const config: Config = {
       defaultMode: "dark",
       respectPrefersColorScheme: false,
     },
+    metadata: [
+      { name: "title", content: "Vola Network" },
+      {
+        name: "description",
+        content:
+          "A Substrate-based DePIN aggregator enabling seamless interoperability across chains, powered by the Aggregator Nodes for unified resource management across diverse DePIN solutions.",
+      },
+      { property: "og:title", content: "Vola Network" },
+      {
+        property: "og:description",
+        content:
+          "A Substrate-based DePIN aggregator enabling seamless interoperability across chains, powered by the Aggregator Nodes for unified resource management across diverse DePIN solutions.",
+      },
+      { property: "og:image", content: "/img/vola-network.png" },
+      { property: "og:url", content: "/" },
+      { name: "twitter:title", content: "Vola Network" },
+      {
+        name: "twitter:description",
+        content:
+          "A Substrate-based DePIN aggregator enabling seamless interoperability across chains, powered by the Aggregator Nodes for unified resource management across diverse DePIN solutions.",
+      },
+      { name: "twitter:image", content: "/img/vola-network.png" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
     // Replace with your project's social card
     image: "img/vola-card.jpg",
     algolia: {
@@ -138,7 +162,7 @@ const config: Config = {
           className: "header-icon-link github",
         },
       ],
-      copyright: `<p class="truncate" style="width:max-content;margin:0;">Copyright © 2024 Vola Network</p>`,
+      copyright: `<p class="truncate" style="width:max-content;margin:0;">Copyright © 2025 Vola Network</p>`,
     },
     prism: {
       theme: prismThemes.github,

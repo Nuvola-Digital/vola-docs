@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
+sidebar_position: 1
+draft: true
 ---
 
-# Tokenomics
+# $VOLA Token Overview
 
 \$VOLA is the native token of Vola Network with the total supply of 1 billion tokens distributed across different stakeholders and use cases within the ecosystem. This distribution ensures that the network is well-funded, incentivizes user participation, rewards community members, and supports the development and growth of the Vola Network. Here's a breakdown of the key allocations:
 
@@ -16,16 +17,16 @@ The total supply of $VOLA tokens is 1 billion. These tokens are allocated to var
 
 | Category                       | % Allocation | Tokens      | Vesting / Lock Periods     |
 | ------------------------------ | ------------ | ----------- | -------------------------- |
-| Community Incentives           | 46%          | 460 million | 20 Years                   |
+| Community Incentives           | 51%          | 510 million | 20 Years                   |
 | Treasury, Marketing & Advisory | 13%          | 130 million |                            |
 | Development Fund               | 9%           | 90 million  | Locked 1 Year              |
 | Core Contributors & Team       | 9%           | 90 million  | Locked 1 Year              |
 | Community (5% NVL Holders)     | 6%           | 60 million  |                            |
 | DEX & CEX Liquidity            | 5%           | 50 million  |                            |
-| Venture Capital (VC)           | 10%          | 100 million | Linear unlock in 36 Months |
+| Venture Capital (VC)           | 5%           | 50 million  | Linear unlock in 36 Months |
 | Early Seed Round               | 2%           | 20 million  | Unlocked at TGE            |
 
-#### Community Incentives (46%) – 460 million $VOLA
+#### Community Incentives (51%) – 510 million $VOLA
 
 - **Purpose:** The largest portion of the supply is dedicated to community incentives, which may include rewards for network participants, early adopters, users who contribute to the ecosystem, staking rewards, and other mechanisms that foster community growth.
 - **Use Cases:** This allocation could be used for staking rewards, airdrops, liquidity mining, incentive programs, and rewarding long-term users or contributing community members.
@@ -55,7 +56,7 @@ The total supply of $VOLA tokens is 1 billion. These tokens are allocated to var
 - **Purpose:** The liquidity pool allocation is essential for ensuring that there is sufficient liquidity in the market for users to buy, sell, or trade $VOLA tokens on decentralized and centralized exchanges.
 - **Use Cases:** Tokens allocated to LPs will be used to create liquidity on decentralized exchanges (DEXs) and centralized exchanges (CEXs), allowing users to easily trade $VOLA. It can also be used for liquidity farming and market making to ensure price stability.
 
-#### Venture Capital (VC) (10%) – 100 million $VOLA
+#### Venture Capital (VC) (5%) – 50 million $VOLA
 
 - **Purpose:** The venture capital allocation is dedicated to investors or partners who provide initial funding or strategic support to the project.
 - **Use Cases:** VC funds are often used for early-stage project funding, partnerships, and strategic investments that help the project grow.
@@ -73,7 +74,7 @@ Many of the allocations (such as for the team, VC, and community) are subject to
 
 :::info[**Incentivizing Growth**]
 
-The 46% allocated to community incentives and 6% to NVL holders demonstrates that Vola Network is highly focused on rewarding its community, incentivizing early participation, and driving adoption. This allocation is critical for network growth and user acquisition.
+The 51% allocated to community incentives and 6% to NVL holders demonstrates that Vola Network is highly focused on rewarding its community, incentivizing early participation, and driving adoption. This allocation is critical for network growth and user acquisition.
 
 :::
 

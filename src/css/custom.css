@@ -1,3 +1,8 @@
+.container {
+  max-width: 100% !important;
+  padding-inline: 1rem;
+}
+
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
@@ -560,5 +565,9 @@ p {
 }
 
 .theme-back-to-top-button {
+  display: none;
+}
+
+.navbar-sidebar__back {
   display: none;
 }

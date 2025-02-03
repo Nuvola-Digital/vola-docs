@@ -1,8 +1,0 @@
-{
-  "label": "Vola Network",
-  "position": 2,
-  "link": {
-    "type": "generated-index",
-    "description": "Vola network is a storage aggregator network based on substrate framework, leveraging its multi-chain capabilities enabling interoperability."
-  }
-}
