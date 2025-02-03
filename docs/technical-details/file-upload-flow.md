@@ -12,7 +12,8 @@ This documentation is based on the current implementation of the Vola. Some feat
 
 File upload in the Vola Network ensures secure and efficient management of user files across decentralized storage platforms. The process involves interactions between the User, the Vola Chain, and Gateway Nodes.
 
-![File Upload Sequence Diagram](/diagrams/File-Upload-Sequence-Diagram.jpg)
+![Vola Upload Flow](/diagrams/Vola-Upload-Flow-dark.png)
+![Vola Upload Flow](/diagrams/Vola-Upload-Flow-light.png)
 
 The above sequence diagram illustrates the interaction flow between the User, the Vola Chain, and the Gateway Node during the file upload process. Each step aligns with the described actions above.
 

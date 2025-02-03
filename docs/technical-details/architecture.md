@@ -10,7 +10,8 @@ This architecture diagram is based on the current implementation of the Vola. So
 
 :::
 
-![Vola Network Architecture](/diagrams/Vola-Network-Architecture.jpg)
+![Vola Network Architecture](/diagrams/Vola-Network-Architecture-dark.png)
+![Vola Network Architecture](/diagrams/Vola-Network-Architecture-light.png)
 
 ## Vola Chain
 
