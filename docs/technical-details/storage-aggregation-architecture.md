@@ -5,11 +5,11 @@ sidebar_position: 1
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import ThemedImage from '@theme/ThemedImage';
 
-# Architecture
+# Storage Aggregation Architecture
 
 :::note
 
-This architecture diagram is based on the current implementation of the Vola. Some features may be incomplete or subject to change as development progresses. Updates will be provided accordingly.
+This architecture diagram is based on the current implementation of the Vola for Storage Aggregation. Some features may be incomplete or subject to change as development progresses. Updates will be provided accordingly.
 
 :::
 
@@ -19,7 +19,7 @@ sources={{
     light: useBaseUrl('/diagrams/Vola-Network-Architecture-light.png'),
     dark: useBaseUrl('/diagrams/Vola-Network-Architecture-dark.png'),
   }}
-/>;
+/>
 
 ## Vola Chain
 
