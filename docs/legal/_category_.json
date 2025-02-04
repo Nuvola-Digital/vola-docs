@@ -3,5 +3,8 @@
   "position": 8,
   "link": {
     "type": "generated-index"
-  }
+  },
+  "className": "hidden",
+  "pagination_next": null,
+  "pagination_prev": null
 }

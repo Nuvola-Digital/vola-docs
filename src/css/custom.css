@@ -3,6 +3,10 @@
   padding-inline: 1rem;
 }
 
+.hidden {
+  display: none;
+}
+
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
