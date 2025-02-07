@@ -1,8 +1,9 @@
 ---
 sidebar_position: 2
+title: "Development Milestones"
 ---
 
-# Development Milestones
+# Phase I Development Milestones
 
 _Last Updated: [Feb 7, 2025]_
 
@@ -71,3 +72,7 @@ _Last Updated: [Feb 7, 2025]_
 The roadmap is subject to change based on development progress, community feedback, and evolving technological and market conditions. Any modifications will be updated; and progress will be documented in related sections of the documentation.
 
 :::
+
+## Phase II Development Milestones - TBA
+
+Details on Phase II milestones will be shared soon.
