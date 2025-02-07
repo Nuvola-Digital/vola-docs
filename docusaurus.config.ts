@@ -115,6 +115,7 @@ const config: Config = {
       items: [
         {
           href: SOCIAL.X.href,
+          title: SOCIAL.X.label,
           position: "right",
           className: "header-icon-link x",
           "aria-label": "Vola Network X (Twitter) handle",
@@ -127,12 +128,14 @@ const config: Config = {
         // },
         {
           href: SOCIAL.DISCORD.href,
+          title: SOCIAL.DISCORD.label,
           position: "right",
           className: "header-icon-link discord",
           "aria-label": "Nuvola Digital Discord server",
         },
         {
           href: SOCIAL.GITHUB.href,
+          title: SOCIAL.GITHUB.label,
           position: "right",
           className: "header-icon-link github",
           "aria-label": "Vola Network GitHub repository",
