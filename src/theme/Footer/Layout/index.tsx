@@ -62,7 +62,7 @@ export default function FooterLayout({
               </a>
               <span>|</span>
               <a href="/legal/privacy-policy" className="custom-footer-link">
-                Privacy
+                Privacy Policy
               </a>
             </div>
             <div>
