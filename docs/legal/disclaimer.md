@@ -6,6 +6,8 @@ pagination_prev: null
 
 # Disclaimer
 
+_Last Updated: [Feb 3, 2025]_
+
 ## Informational Purposes Only
 
 The information provided in this document, website, or any associated materials regarding Vola Network is for informational and developmental purposes only. It does not constitute financial, investment, legal, or tax advice. Users should conduct their own research before engaging with the platform.

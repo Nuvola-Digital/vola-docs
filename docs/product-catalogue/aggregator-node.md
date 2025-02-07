@@ -8,6 +8,12 @@ The Aggregator Node (also known as the Gateway Node) serves as a critical compon
 
 By leveraging blockchain technology, the Aggregator Node ensures secure file handling, efficient storage allocation, and real-time updates to the Vola Chain.
 
+:::info[**Setting Up and Running a Aggregator Node**]
+
+To set up and run a Aggregator node, refer to the Vola Aggregator Node Guide for detailed instructions.
+
+:::
+
 ## Key Features
 
 - **Seamless File Aggregation:**
