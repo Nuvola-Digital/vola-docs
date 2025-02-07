@@ -14,25 +14,25 @@ The total supply of $VOLA tokens is 1 billion. These tokens are allocated to var
 
 ### Distribution
 
-| Category                       | % Allocation | Tokens      | Vesting / Lock Periods     |
-| ------------------------------ | ------------ | ----------- | -------------------------- |
-| Community Incentives           | 51%          | 510 million | 20 Years                   |
-| Treasury, Marketing & Advisory | 13%          | 130 million |                            |
-| Development Fund               | 9%           | 90 million  | Locked 1 Year              |
-| Core Contributors & Team       | 9%           | 90 million  | Locked 1 Year              |
-| Community (5% NVL Holders)     | 6%           | 60 million  |                            |
-| DEX & CEX Liquidity            | 5%           | 50 million  |                            |
-| Venture Capital (VC)           | 5%           | 50 million  | Linear unlock in 36 Months |
-| Early Seed Round               | 2%           | 20 million  | Unlocked at TGE            |
+| Category                    | % Allocation | Tokens      | Vesting / Lock Periods     |
+| --------------------------- | ------------ | ----------- | -------------------------- |
+| Community Incentives        | 51%          | 510 million | 20 Years                   |
+| Treasury                    | 13%          | 130 million |                            |
+| Development Fund            | 9%           | 90 million  | Locked 1 Year              |
+| Core Contributors & Team    | 9%           | 90 million  | Locked 1 Year              |
+| Community (5% $NVL Holders) | 6%           | 60 million  |                            |
+| DEX & CEX Liquidity         | 5%           | 50 million  |                            |
+| Venture Capital (VC)        | 5%           | 50 million  | Linear unlock in 36 Months |
+| Early Seed Round            | 2%           | 20 million  | Unlocked at TGE            |
 
 #### Community Incentives (51%) – 510 million $VOLA
 
 - **Purpose:** The largest portion of the supply is dedicated to community incentives, which may include rewards for network participants, early adopters, users who contribute to the ecosystem, staking rewards, and other mechanisms that foster community growth.
 - **Use Cases:** This allocation could be used for staking rewards, airdrops, liquidity mining, incentive programs, and rewarding long-term users or contributing community members.
 
-#### Treasury, Marketing & Advisory (13%) – 130 million $VOLA
+#### Treasury (13%) – 130 million $VOLA
 
-- **Purpose:** The treasury is typically reserved for future funding of the network, enabling the project to meet unforeseen costs, support the ecosystem, or fund strategic initiatives. The marketing and advisory allocation will fund marketing campaigns, community growth initiatives, and advisory services from key industry experts and influencers. This helps increase the visibility of the Vola Network and attract new users, partners, and investors.
+- **Purpose:** The treasury is typically reserved for future funding of the network, enabling the project to meet unforeseen costs, support the ecosystem, or fund strategic initiatives. It will also fund marketing campaigns, community growth initiatives, and advisory services from key industry experts and influencers. This helps increase the visibility of the Vola Network and attract new users, partners, and investors.
 - **Use Cases:** Funds may be used for advertising, partnerships, influencer promotions, event sponsorships, and other forms of outreach. It may also be used to fund future development or partnerships, or to cover operational costs as the network scales.
 
 #### Development Fund (9%) – 90 million $VOLA
@@ -45,10 +45,10 @@ The total supply of $VOLA tokens is 1 billion. These tokens are allocated to var
 - **Purpose:** The team allocation is meant to reward the core team responsible for building the Vola Network. This ensures that the team remains incentivized to continue working on the project long-term.
 - **Use Cases:** The tokens for the team may be subject to vesting periods, ensuring that the team is aligned with the long-term success of the project.
 
-#### Community (5% NVL Holders) (6%) – 60 million $VOLA
+#### Community (5% $NVL Holders) (6%) – 60 million $VOLA
 
-- **Purpose:** This portion is dedicated to rewarding NVL token holders (or other legacy token holders, if applicable). This is an important allocation to maintain continuity and reward the community that helped build the platform’s early success.
-- **Use Cases:** It could be distributed to NVL holders in airdrops, staking rewards, or other forms of community participation.
+- **Purpose:** This portion is dedicated to rewarding the Cardano community, with 5% reserved for $NVL stakers. This is an important allocation to maintain continuity and reward the community that helped build the platform’s early success. Specific details regarding the distribution mechanism and timeline will be announced (TBA).
+- **Use Cases:** It could be distributed to $NVL holders in airdrops, staking rewards, or other forms of community participation.
 
 #### DEX & CEX Liquidity (5%) – 50 million $VOLA
 
@@ -73,7 +73,7 @@ Many of the allocations (such as for the team, VC, and community) are subject to
 
 :::info[**Incentivizing Growth**]
 
-The 51% allocated to community incentives and 6% to NVL holders demonstrates that Vola Network is highly focused on rewarding its community, incentivizing early participation, and driving adoption. This allocation is critical for network growth and user acquisition.
+The 51% allocated to community incentives and 6% to $NVL holders demonstrates that Vola Network is highly focused on rewarding its community, incentivizing early participation, and driving adoption. This allocation is critical for network growth and user acquisition.
 
 :::
 
