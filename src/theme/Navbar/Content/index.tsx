@@ -99,22 +99,25 @@ export default function NavbarContent(): JSX.Element {
           <div style={{ display: "flex", gap: "12px" }}>
             <NavbarItems items={rightItems} />
           </div>
-          <button
-            disabled
+          <a
+            href="https://devnet.vola.network/"
+            target="_blank"
+            title="Open Vola DevNet"
+            className="btn btn-primary"
             style={{
-              backgroundColor: "var(--primary)",
-              color: "white",
               display: "grid",
               borderRadius: "4px",
               padding: "6px 20px",
               border: "none",
+              textAlign: "center",
+              textDecoration: "none",
             }}
           >
             <span style={{ fontSize: "16px", fontWeight: "bold" }}>App</span>
             <span style={{ fontSize: "12px", whiteSpace: "nowrap" }}>
-              Coming Soon
+              Devnet is Live!
             </span>
-          </button>
+          </a>
         </div>
       }
     />
