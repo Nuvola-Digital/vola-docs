@@ -10,7 +10,11 @@ This guide will walk you through setting up and running a Aggregator node using 
 
 ### System Requirement
 
-**_All system requirements currently apply to the devnet phase. As we transition to testnet and mainnet, these requirements may evolve, and the document will be updated accordingly._**
+:::note
+
+All system requirements currently apply to the devnet phase. As we transition to testnet and mainnet, these requirements may evolve, and the document will be updated accordingly.
+
+:::
 
 - 8 GB Ram
 - 4 Core CPU
@@ -93,7 +97,7 @@ cd aggregator-node-docker
 5.  **Register the Node:**
     Before participating on the aggregation, node should be register in the chain.
 
-    - You would need some balance on the owner account for registering the node (for transaction fee and registration fee, which is based on storage capacity offered). You can use faucet to load balance on your account.
+    - You would need some funds on the owner account for registering the node (for transaction fee and registration fee, which is based on storage capacity offered). You can use faucet to load test funds on your account.
 
     - You need to have a public domain that points to the aggregator node that you just ran. Also, You need to configure https (SSL) support for that.
 
