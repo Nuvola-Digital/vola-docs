@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # $VOLA Token Overview
 
-\$VOLA is the native token of Vola Network with the total supply of 1 billion tokens distributed across different stakeholders and use cases within the ecosystem. This distribution ensures that the network is well-funded, incentivizes user participation, rewards community members, and supports the development and growth of the Vola Network. Here's a breakdown of the key allocations:
+$VOLA is the native token of Vola Network with the total supply of 1 billion tokens distributed across different stakeholders and use cases within the ecosystem. This distribution ensures that the network is well-funded, incentivizes user participation, rewards community members, and supports the development and growth of the Vola Network. Here's a breakdown of the key allocations:
 
 ## Breakdown
 
