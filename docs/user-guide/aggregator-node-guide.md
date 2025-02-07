@@ -10,6 +10,8 @@ This guide will walk you through setting up and running a Aggregator node using 
 
 ### System Requirement
 
+**_All system requirements currently apply to the devnet phase. As we transition to testnet and mainnet, these requirements may evolve, and the document will be updated accordingly._**
+
 - 8 GB Ram
 - 4 Core CPU
 - Storage Based-On Commitment
