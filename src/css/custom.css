@@ -322,7 +322,19 @@ nav.navbar {
 }
 @media screen and (max-width: 996px) {
   .navbar__items--center {
+    justify-content: end;
+  }
+  .navbar__items--center > * {
+    margin-left: auto;
+    width: auto;
+  }
+  .navbar__items--right {
     display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navbar__items--center > * > * > * {
+    display: contents;
   }
   .navbar__items--right {
     display: none;
@@ -552,7 +564,7 @@ p {
   display: inline-block;
   position: absolute;
   top: -50%;
-  right: 0%;
+  right: 50%;
   visibility: hidden;
   opacity: 0;
   z-index: 10;
