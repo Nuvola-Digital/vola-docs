@@ -10,7 +10,11 @@ This guide will walk you through setting up and running a Vola Chain Node using 
 
 ### System Requirement
 
-**_All system requirements currently apply to the devnet phase. As we transition to testnet and mainnet, these requirements may evolve, and the document will be updated accordingly._**
+:::note
+
+All system requirements currently apply to the devnet phase. As we transition to testnet and mainnet, these requirements may evolve, and the document will be updated accordingly.
+
+:::
 
 - 4 GB Ram
 - 2 Core CPU

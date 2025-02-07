@@ -17,38 +17,38 @@ _Last Updated: [Feb 7, 2025]_
 
 - **End-to-End File Encryption:** Ensuring secure storage and retrieval of user data.
 - **Payment Dispute Flow & UI Development:** Implementing user-friendly dispute resolution for payments.
-- **Upload Interruption UI Flow:** Enhancing user experience during file uploads(includes file upload cancels and interruptions).
+- **Upload Interruption UI Flow:** Enhancing user experience during file uploads (includes file upload cancels and interruptions).
 
 ## Future plans
 
 ### Storage-Related Enhancements
 
-- Reputation Model: Rating system for both users and aggregator nodes for smooth network operation.
-- ZKP Authentication & Wallet Module: Enable Web2 users to interact securely with Web3 storage.
-- Consensus Model: Implement a proof-of-file and node liveliness mechanism.
-- Additional Storage Provider Integration: Onboarding IAGON as an additional storage provider.
-- Redundancy & Backup System: Implementing data replication across nodes for high availability.
-- Metadata Indexing & Search: Enabling fast and efficient file searches across stored data.
+- **Reputation Model:** Rating system for both users and aggregator nodes for smooth network operation.
+- **ZKP Authentication & Wallet Module:** Enable Web2 users to interact securely with Web3 storage.
+- **Consensus Model:** Implement a proof-of-file and node liveliness mechanism.
+- **Additional Storage Provider Integration:** Onboarding IAGON as an additional storage provider.
+- **Redundancy & Backup System:** Implementing data replication across nodes for high availability.
+- **Metadata Indexing & Search:** Enabling fast and efficient file searches across stored data.
 
 ### Compute and GPU
 
-- Extend Aggregator Module: Enable compute and GPU aggregation across different DePIN services(first partners yet to be decided).
-- Aggregate first compute partner
-- Aggregate first GPU partner: AI, ML, and high-performance workloads.
+- **Extend Aggregator Module:** Enable compute and GPU aggregation across different DePIN services (first partners yet to be decided).
+- **Aggregate first compute partner**
+- **Aggregate first GPU partner:** AI, ML, and high-performance workloads.
 
 ### Blockchain
 
-- Security and privacy - ZKP-Based Authentication & Web2 Wallet Integration: Allowing users to interact with the network securely using Web2 authentication.
-- Reputation model for nodes: tracking node downtime consistencies and other performance variables for smooth network operation.
-- Optimised consensus mechanism: Improved proof-of-file and node liveliness models for energy efficiency and scalability.
-- TGE and Tokenomics plan: Establish a detailed use-case plan for $VOLA, including staking, governance, payments for decentralized storage, compute, and GPU access.
+- **Security and privacy:** ZKP-Based Authentication & Web2 Wallet Integration: Allowing users to interact with the network securely using Web2 authentication.
+- **Reputation model for nodes:** tracking node downtime consistencies and other performance variables for smooth network operation.
+- **Optimised consensus mechanism:** Improved proof-of-file and node liveliness models for energy efficiency and scalability.
+- **TGE and Tokenomics plan:** Establish a detailed use-case plan for $VOLA, including staking, governance, payments for decentralized storage, compute, and GPU access.
 
 ### Network Upgrades
 
-- Partner Chain Integration: Cardano to be used as a financial settlement layer.
-- Multichain support
-  - EVM Integration: Enabling interaction with Ethereum-compatible chains.
-  - Polkadot Integration: Expanding support to the Polkadot ecosystem.
+- **Partner Chain Integration:** Cardano to be used as a financial settlement layer.
+- **Multichain support**
+  - **EVM Integration:** Enabling interaction with Ethereum-compatible chains.
+  - **Polkadot Integration:** Expanding support to the Polkadot ecosystem.
 
 ## Testnet Release
 
@@ -57,6 +57,7 @@ _Last Updated: [Feb 7, 2025]_
 - Stress-testing network security, encryption, and reputation models.
 - First deployment of consensus and decentralized resource leasing.
 - Developers onboarding.
+- Full network audit and refinements.
 
 ## Mainnet Release
 
