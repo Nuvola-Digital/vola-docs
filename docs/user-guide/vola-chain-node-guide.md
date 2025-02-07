@@ -10,19 +10,11 @@ This guide will walk you through setting up and running a Vola Chain Node using 
 
 ### System Requirement
 
-**_All the system requirements are for devnet. As we move to testnet and mainnet the requirement will get increased drastically._**
+**_All system requirements currently apply to the devnet phase. As we transition to testnet and mainnet, these requirements may evolve, and the document will be updated accordingly._**
 
-- **For Validator Node**
-
-  - 4 GB Ram
-  - 2 Core CPU
-  - 20 GB Storage
-
-- **Aggregator Node**
-
-  - 4 Gb Ram
-  - 2 Core CPU
-  - 50 GB Storage
+- 4 GB Ram
+- 2 Core CPU
+- 20 GB Storage (50 GB for Archive Node)
 
 ### Prerequisites
 
