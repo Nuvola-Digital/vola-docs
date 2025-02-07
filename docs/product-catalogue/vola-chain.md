@@ -6,6 +6,12 @@ sidebar_position: 1
 
 Vola Chain is the underlying Substrate-based blockchain that powers the Vola. It facilitates key operations such as storage management, authentication, and transaction handling, while ensuring security and immutability of data. The blockchain is composed of several key entities, including Validator Nodes, RPC Nodes, and Offchain Workers, which ensure smooth functioning and interaction with users and the network.
 
+:::info[**Setting Up and Running a Vola Chain Node**]
+
+To set up and run a Vola Chain Node, refer to the Quick Start Guide for detailed instructions.
+
+:::
+
 ## Key Features
 
 - **Multi-Chain Support:**
@@ -31,3 +37,5 @@ Vola Explorer is the blockchain explorer for Vola Chain, providing real-time ins
 - **Monitor Blocks** – Check the latest blocks added to the chain.
 - **Track Transactions** – View transaction details, including sender, receiver, and status.
 - **Explore Events** – Check the latest events on the network.
+
+The Vola Explorer can be accessed at https://devnet.volascan.io

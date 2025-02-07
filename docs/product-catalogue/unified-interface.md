@@ -8,6 +8,12 @@ The Unified Interface of Vola provides users with an intuitive and seamless way 
 
 The goal of the Unified Interface is to bridge the gap between Web2 and Web3, enabling users to explore decentralized storage options while maintaining a familiar, user-friendly experience. By offering a platform to interact with diverse storage solutions, the Unified Interface ensures that users have the flexibility to choose the best storage provider for their needs, all within a single, cohesive platform.
 
+:::info[**Devnet Demo**]
+
+To access the demo version for Devnet of the Vola Network, refer to the Vola Unified Interface Guide for detailed instructions.
+
+:::
+
 ## Key Features
 
 - **Seamless Storage Management:**

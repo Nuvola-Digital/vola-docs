@@ -79,13 +79,13 @@ const config: Config = {
       {
         name: "description",
         content:
-          "A Substrate-based DePIN aggregator enabling seamless interoperability across chains, powered by the Aggregator Nodes for unified resource management across diverse DePIN solutions.",
+          "A Substrate-based DePIN aggregator enabling a seamless interoperability across chains, powered by the Aggregator Nodes for unified resource management across diverse DePIN solutions.",
       },
       { property: "og:title", content: "Vola Network - Documentation" },
       {
         property: "og:description",
         content:
-          "A Substrate-based DePIN aggregator enabling seamless interoperability across chains, powered by the Aggregator Nodes for unified resource management across diverse DePIN solutions.",
+          "A Substrate-based DePIN aggregator enabling a seamless interoperability across chains, powered by the Aggregator Nodes for unified resource management across diverse DePIN solutions.",
       },
       { property: "og:image", content: "/img/vola-network.png" },
       { property: "og:url", content: "/" },
@@ -93,7 +93,7 @@ const config: Config = {
       {
         name: "twitter:description",
         content:
-          "A Substrate-based DePIN aggregator enabling seamless interoperability across chains, powered by the Aggregator Nodes for unified resource management across diverse DePIN solutions.",
+          "A Substrate-based DePIN aggregator enabling a seamless interoperability across chains, powered by the Aggregator Nodes for unified resource management across diverse DePIN solutions.",
       },
       { name: "twitter:image", content: "/img/vola-network.png" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -115,6 +115,7 @@ const config: Config = {
       items: [
         {
           href: SOCIAL.X.href,
+          title: SOCIAL.X.label,
           position: "right",
           className: "header-icon-link x",
           "aria-label": "Vola Network X (Twitter) handle",
@@ -127,12 +128,14 @@ const config: Config = {
         // },
         {
           href: SOCIAL.DISCORD.href,
+          title: SOCIAL.DISCORD.label,
           position: "right",
           className: "header-icon-link discord",
           "aria-label": "Nuvola Digital Discord server",
         },
         {
           href: SOCIAL.GITHUB.href,
+          title: SOCIAL.GITHUB.label,
           position: "right",
           className: "header-icon-link github",
           "aria-label": "Vola Network GitHub repository",

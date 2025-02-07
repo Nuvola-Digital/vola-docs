@@ -3,6 +3,9 @@
   padding-inline: 1rem;
 }
 
+.hidden {
+  display: none;
+}
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
@@ -318,7 +321,19 @@ nav.navbar {
 }
 @media screen and (max-width: 996px) {
   .navbar__items--center {
+    justify-content: end;
+  }
+  .navbar__items--center > * {
+    margin-left: auto;
+    width: auto;
+  }
+  .navbar__items--right {
     display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navbar__items--center > * > * > * {
+    display: contents;
   }
   .navbar__items--right {
     display: none;
@@ -548,7 +563,7 @@ p {
   display: inline-block;
   position: absolute;
   top: -50%;
-  right: 0%;
+  right: 50%;
   visibility: hidden;
   opacity: 0;
   z-index: 10;
@@ -570,4 +585,13 @@ p {
 
 .navbar-sidebar__back {
   display: none;
+}
+
+.btn.btn-primary {
+  background-color: var(--primary);
+  color: white;
+  transition: all 0.2s ease-out;
+}
+.btn.btn-primary:hover {
+  background-color: #0891b2;
 }

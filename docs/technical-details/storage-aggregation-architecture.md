@@ -41,7 +41,7 @@ Vola Chain is the underlying Substrate-based blockchain that powers the Vola. It
 ### Key Functions of Vola Chain
 
 - **Multi-Chain Support:**
-  Vola Chain facilitates interoperability across different blockchains, enabling seamless interactions with decentralized storage providers and other blockchain networks.
+  Vola Chain facilitates interoperability across different blockchains, enabling a seamless interactions with decentralized storage providers and other blockchain networks.
 
 - **File Ownership Proofs:**
   The blockchain stores cryptographic proofs of file ownership, allowing users to verify that they retain permanent, immutable control over their files, even when aggregated across different storage solutions.
@@ -55,11 +55,11 @@ Vola Chain is the underlying Substrate-based blockchain that powers the Vola. It
 - **Validator Commitments:**
   Validator nodes commit to the integrity of OAuth tokens, file storage proofs and periodically validate their validity, ensuring the network's security.
 
-## Aggregator(or Gateway) Node
+## Aggregator (or Gateway) Node
 
 ### Aggregation Layer
 
-The Aggregator Node (also known as the Gateway Node) acts as a bridge between users and the underlying decentralized storage solutions. These nodes manage and aggregate users' files across different storage providers, ensuring seamless interactions and synchronization across multiple platforms. Aggregator Nodes are responsible for handling users’ upload requests, ensuring that files are securely stored, and ensuring the blockchain is updated with the latest changes.
+The Aggregator Node (also known as the Gateway Node) acts as a bridge between users and the underlying decentralized storage solutions. These nodes manage and aggregate users' files across different storage providers, ensuring a seamless interactions and synchronization across multiple platforms. Aggregator Nodes are responsible for handling users’ upload requests, ensuring that files are securely stored, and ensuring the blockchain is updated with the latest changes.
 
 ### Components of Aggregator Node
 
