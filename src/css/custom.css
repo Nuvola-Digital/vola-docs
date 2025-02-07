@@ -552,7 +552,7 @@ p {
   display: inline-block;
   position: absolute;
   top: -50%;
-  right: 0%;
+  right: 50%;
   visibility: hidden;
   opacity: 0;
   z-index: 10;
