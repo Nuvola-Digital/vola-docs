@@ -8,10 +8,10 @@ _Last Updated: [Feb 7, 2025]_
 
 ## Devnet - completed
 
-- **Custom substrate chain** - file ownership and distribution indexing.
-- **Aggregator node** - support for IPFS storage driver.
-- **Storage aggregation** - storage system supporting aggregator node onboarding, tracking.
-- **Web2 Integration** - Google authentication and login to sync files from google drive to decentralized storage.
+- **Custom Substrate Chain:** File ownership and distribution indexing.
+- **Aggregator Node:** Support for IPFS storage driver.
+- **Storage Aggregation:** Storage system supporting aggregator node onboarding, tracking.
+- **Web2 Integration:** Google authentication and login to sync files from google drive to decentralized storage.
 
 ## Currently in development
 
@@ -33,20 +33,20 @@ _Last Updated: [Feb 7, 2025]_
 ### Compute and GPU
 
 - **Extend Aggregator Module:** Enable compute and GPU aggregation across different DePIN services (first partners yet to be decided).
-- **Aggregate first compute partner**
-- **Aggregate first GPU partner:** AI, ML, and high-performance workloads.
+- **Aggregate First Compute Partner**
+- **Aggregate First GPU Partner:** AI, ML, and high-performance workloads.
 
 ### Blockchain
 
-- **Security and privacy:** ZKP-Based Authentication & Web2 Wallet Integration: Allowing users to interact with the network securely using Web2 authentication.
-- **Reputation model for nodes:** tracking node downtime consistencies and other performance variables for smooth network operation.
-- **Optimised consensus mechanism:** Improved proof-of-file and node liveliness models for energy efficiency and scalability.
-- **TGE and Tokenomics plan:** Establish a detailed use-case plan for $VOLA, including staking, governance, payments for decentralized storage, compute, and GPU access.
+- **Security and Privacy:** ZKP-Based Authentication & Web2 Wallet Integration: Allowing users to interact with the network securely using Web2 authentication.
+- **Reputation Model for Nodes:** Tracking node downtime consistencies and other performance variables for smooth network operation.
+- **Optimised Consensus Mechanism:** Improved proof-of-file and node liveliness models for energy efficiency and scalability.
+- **TGE and Tokenomics Plan:** Establish a detailed use-case plan for $VOLA, including staking, governance, payments for decentralized storage, compute, and GPU access.
 
 ### Network Upgrades
 
 - **Partner Chain Integration:** Cardano to be used as a financial settlement layer.
-- **Multichain support**
+- **Multi-Chain support:**
   - **EVM Integration:** Enabling interaction with Ethereum-compatible chains.
   - **Polkadot Integration:** Expanding support to the Polkadot ecosystem.
 
