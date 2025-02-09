@@ -44,3 +44,17 @@
 .admonitionContent > :last-child {
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 996px) {
+  .admonition {
+    gap: 16px;
+    padding: 16px;
+  }
+  .admonitionHeading:not(:last-child) {
+    margin-bottom: 0;
+    font-size: 1.1rem;
+  }
+  .admonitionContent {
+    font-size: 0.9rem;
+  }
+}
