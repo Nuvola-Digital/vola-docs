@@ -109,3 +109,49 @@ cd aggregator-node-docker
           ```
 
     After the registration is completed, your node can start receiving upload requests.
+
+ 
+## Updating Aggregator Node Registration Information  
+
+When updating your **Aggregator Node** registration details (such as **gateway domain, port, and location**), follow the steps below.  
+
+### Run the Update Command  
+
+Use the following command to update your node’s registration information:  
+
+  ```bash
+  docker exec -it aggregator-node /usr/local/bin/aggregator-node node update 
+    --chain-rpc 
+    --address $ACCOUNT 
+    --gateway $GATEWAY_DOMAIN 
+    --gateway-port $GATEWAY_PORT 
+    --location $NODE_LOCATION 
+    --node-id {your-node-id-here}
+  ```
+  :::note
+  Replace \{your-node-id-here\} with your node id that was recieved during registration.
+  :::
+
+### Updating the Aggregator Node Docker Image  
+
+If you have an older version of the aggregator node running, update the **Docker image** using the following steps:  
+
+1. **Pull the latest image:**  
+
+  ```bash
+  docker pull nuvoladigital/aggregator-node:latest
+  ```
+2. **Shut down the existing container:**
+
+  ```bash
+  docker compose down
+  ```
+3. **Restart the container with the updated image:**
+
+  ```bash
+  docker compose up
+  ```
+
+  :::note
+  Make sure you are on the same directory as aggregator node docker repo.
+  :::
