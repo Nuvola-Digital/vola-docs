@@ -105,7 +105,7 @@ cd aggregator-node-docker
 
           ```bash
             source .env
-            docker exec -it aggregator-node /usr/local/bin/aggregator-node register --chain-rpc $CHAIN_RPC --address $ACCOUNT --gateway $GATEWAY_DOMAIN --gateway-port $GATEWAY_PORT --capacity $STORAGE_CAPACITY --location $NODE_LOCATION
+            docker exec -it aggregator-node /usr/local/bin/aggregator-node node register --chain-rpc $CHAIN_RPC --address $ACCOUNT --gateway $GATEWAY_DOMAIN --gateway-port $GATEWAY_PORT --capacity $STORAGE_CAPACITY --location $NODE_LOCATION
           ```
 
     After the registration is completed, your node can start receiving upload requests.
